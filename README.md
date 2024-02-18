@@ -76,8 +76,15 @@ If you want to change the setup of the documentation, then refer to this website
 
 ## Status of the Project
 - [x] The framework of the documentation is ready.
-- [ ] General discussion regarding QML.
-- [ ] Contents of the documentation.
+- [x] Overview.
+- [x] General issues in QC.
+- [x] Notations and representations.
+- [ ] Concepts (indepth intro to entanglement, superposition, block sphere, etc).
+- [ ] Playing with qubits using concepts.
+- [ ] Understanding Quantum gates (analogy with classical gates).
+- [ ] Quantum circuits.
+- [ ] How to construct any circuit.
+- [ ] Quantum ML algorithms (algos like SVM, KNN etc).
 
 
 
