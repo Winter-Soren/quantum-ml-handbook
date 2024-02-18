@@ -1,0 +1,4 @@
+# References
+
+1. [The Role of Interference and Entanglement in Quantum Computing.](https://pages.cs.wisc.edu/~jvangael/pubs/msthesis.pdf)
+2. [PennyLane Documentation](https://pennylane.ai/qml/)
