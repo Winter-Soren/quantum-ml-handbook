@@ -1,5 +1,6 @@
-site_name: Quantum Machine
+site_name: Quantum Machine Learning Documentation
 repo_url: https://github.com/winter-soren/qml-documentation
+edit_uri: edit/main/docs
 theme:
   name: material
   language: en
@@ -44,12 +45,18 @@ theme:
       primary: deep-purple
       accent: amber
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   # - projects
   # - optimize
   # - social
-  - git-authors
+  # - git-authors
+  - git-committers:
+      repository: winter-soren/qml-documentation
+      branch: main
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
