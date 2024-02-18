@@ -4,14 +4,21 @@ edit_uri: edit/main/docs
 theme:
   name: material
   language: en
+  logo: assets/logo.png
+  favicon: assets/logo.png
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
     view: material/eye
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    font:
+      text: Roboto
   features:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
+    - toc.follow
     - navigation.top
     - navigation.instant
     - navigation.instant.prefetch
@@ -20,9 +27,11 @@ theme:
     - navigation.tracking
     - navigation.expand
     - navigation.path
-    - navigation.top
+    - navigation.
+    - navigation.sections
     - search.suggest
     - search.highlight
+    - search.share
     - content.action.edit
     - content.action.view
     - content.tabs.link
@@ -49,7 +58,9 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - search
+  - search:
+      prebuild_index: true
+  # - meta-descriptions
   # - projects
   # - optimize
   # - social
@@ -63,9 +74,10 @@ plugins:
 
 markdown_extensions:
   - toc:
-      permalink: "#"
+      permalink: true
   - pymdownx.highlight:
-      anchor_linenums: true
+      anchor_linenums:
+  - meta
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - admonition
