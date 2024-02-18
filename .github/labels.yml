@@ -1,0 +1,56 @@
+# Labels to be used in the repository issues and pull requests
+labels:
+  - name: bug
+    color: ff0000
+    description: Something isn't working as expected
+  - name: feature
+    color: 336699
+    description: A new feature or enhancement request
+  - name: documentation
+    color: 0075ca
+    description: Improvement or addition to documentation
+  - name: help wanted
+    color: fad8c7
+    description: Need some help with this issue
+  - name: good first issue
+    color: 0e8a16
+    description: Good for newcomers to make their first contribution
+  - name: question
+    color: cc317c
+    description: Further clarification or information is needed
+  - name: wontfix
+    color: ffffff
+    description: This issue will not be addressed
+  - name: in progress
+    color: fbca04
+    description: Currently being worked on
+  - name: on hold
+    color: e6e6e6
+    description: This issue is temporarily on hold
+  - name: needs review
+    color: fbca04
+    description: Ready for review by others
+  - name: ready for merge
+    color: 009800
+    description: Ready to be merged into the main branch
+  - name: awaiting feedback
+    color: fef2c0
+    description: Waiting for feedback from stakeholders or users
+  - name: duplicate
+    color: cccccc
+    description: This issue or pull request already exists
+  - name: invalid
+    color: e6e6e6
+    description: This issue or pull request is invalid or incorrect
+  - name: triaged
+    color: d4c5f9
+    description: Issue has been reviewed and prioritized
+  - name: high priority
+    color: b60205
+    description: Highest priority
+  - name: medium priority
+    color: d93f0b
+    description: Medium priority
+  - name: low priority
+    color: e6e6e6
+    description: Lowest priority

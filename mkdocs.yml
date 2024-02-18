@@ -1,0 +1,70 @@
+site_name: Quantum Machine
+repo_url: https://github.com/squidfunk/mkdocs-material
+theme:
+  name: material
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    # light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: indigo
+      accent: light-blue
+
+      # dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: deep-purple
+      accent: amber
+
+plugins:
+  - search
+  # - projects
+  # - optimize
+  # - social
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/winter-soren"  target="_blank" rel="noopener">Soham Bhoir</a>
