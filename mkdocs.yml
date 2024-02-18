@@ -70,7 +70,7 @@ extra_javascript:
 plugins:
   - search:
       prebuild_index: true
-  # - meta-descriptions
+  - meta-descriptions
   # - projects
   # - optimize
   # - social
