@@ -1,5 +1,5 @@
 site_name: Quantum Machine
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_url: https://github.com/winter-soren/
 theme:
   name: material
   language: en
@@ -49,10 +49,14 @@ plugins:
   # - projects
   # - optimize
   # - social
+  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
+      fallback_to_build_date: true
 
 markdown_extensions:
+  - toc:
+      permalink: '#'
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
