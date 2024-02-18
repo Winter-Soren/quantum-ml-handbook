@@ -1,5 +1,5 @@
 site_name: Quantum Machine
-repo_url: https://github.com/winter-soren/
+repo_url: https://github.com/winter-soren/qml-documentation
 theme:
   name: material
   language: en
@@ -56,7 +56,7 @@ plugins:
 
 markdown_extensions:
   - toc:
-      permalink: '#'
+      permalink: "#"
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite

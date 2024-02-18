@@ -5,8 +5,9 @@ This repository contains comprehensive documentation on Quantum Machine Learning
 ## Table of Contents
 1. [Installation](#installation)
 2. [Project Structure](#project-structure)
-3. [Contributing](#contributing)
-4. [License](#license)
+3. [Status of the Project](#status-of-the-project)
+4. [Contributing](#contributing)
+5. [License](#license)
 
 ## Installation
 before you start, make sure you have the following installed:
@@ -71,6 +72,13 @@ To create a new page (ie the tab), go to `docs` folder and create a new markdown
 If you want to add any new pulgins, then refer to this website for reference [mkdocs plugins](https://squidfunk.github.io/mkdocs-material/plugins/)
 
 If you want to change the setup of the documentation, then refer to this website for reference [mkdocs setup](https://squidfunk.github.io/mkdocs-material/setup/)
+
+
+## Status of the Project
+- [x] The framework of the documentation is ready.
+- [ ] General discussion regarding QML.
+- [ ] Contents of the documentation.
+
 
 
 ## Contribution
