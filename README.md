@@ -57,10 +57,20 @@ The project structure is as follows:
 │   ├───ISSUE_TEMPLATE
 │   └───workflows
 ├───docs
-|    |-index.md
-|    └───stylesheets
-|        ├───extra.css
-|-mkdocs.yml           
+│   ├───assets
+│   ├───documentation
+│   |   ├───index.md
+│   |   ├───concepts.md
+│   |   ├───notations.md
+│   ├───javascripts
+|   |   |───katex.js
+|   |   |───mathjax.js
+│   ├───overview
+│   |   ├───index.md
+│   ├───references
+│   └───stylesheets
+│       └───extra.css
+└───mkdocs.yml
 ```
 
 `mkdocs.yml` is the configuration file for the documentation, it contains the site name, the pages, and the theme.
