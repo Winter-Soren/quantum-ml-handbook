@@ -43,7 +43,8 @@ v_0 \\
 v_1 \\
 \vdots \\
 v_n \\
-\end{bmatrix} = |v\rangle
+\end{bmatrix} = |v\rangle 
+\tag{1}
 $$
 
 Vector represented as bra 〈v|, `v` is represented as:
@@ -52,6 +53,7 @@ $$
 \bar{v^T} = \begin{bmatrix}
 \bar{v_0} & \bar{v_1} & \cdots & \bar{v_n}
 \end{bmatrix} = \langle v|
+\tag{2}
 $$
 
 In component form
@@ -63,6 +65,7 @@ v_1 \\
 \vdots \\
 v_n \\
 \end{bmatrix} = v_0|0\rangle + v_1|1\rangle + \cdots + v_n|n\rangle
+\tag{3}
 $$
 
 ### 3. Inner Product aka Dot Product
@@ -78,6 +81,7 @@ v_n \\
 \begin{bmatrix}
 \bar{v_0} & \bar{v_1} & \cdots & \bar{v_n}
 \end{bmatrix} = \bar{u_0}^*v_0 + \bar{u_1}^*v_1 + \cdots + \bar{u_n}^*v_n
+\tag{4}
 $$
 
 
@@ -99,6 +103,7 @@ u_1\bar{v_0} & u_1\bar{v_1} & \cdots & u_1\bar{v_n} \\
 \vdots & \vdots & \ddots & \vdots \\
 u_n\bar{v_0} & u_n\bar{v_1} & \cdots & u_n\bar{v_n} \\
 \end{bmatrix}
+\tag{5}
 $$
 
 ### 5. Cross Product
@@ -110,6 +115,7 @@ u_1v_2 - u_2v_1 \\
 u_2v_0 - u_0v_2 \\
 u_0v_1 - u_1v_0 \\
 \end{bmatrix}
+\tag{6}
 $$
 
 ### 6. Pauli Matrices
@@ -120,6 +126,7 @@ $$
 0 & 1 \\
 1 & 0 \\
 \end{bmatrix}
+\tag{7}
 $$
 
 $$
@@ -127,6 +134,7 @@ $$
 0 & -i \\
 i & 0 \\
 \end{bmatrix}
+\tag{8}
 $$
 
 $$
@@ -134,6 +142,7 @@ $$
 1 & 0 \\
 0 & -1 \\
 \end{bmatrix}
+\tag{9}
 $$
 
 Pauli Matrix represents the spin of a particle in the x, y, and z directions. They are used in quantum computing to perform quantum gates.
@@ -145,18 +154,22 @@ The Bell state is a maximally entangled state of two qubits. In layman terms it 
 
 $$
 |\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
+\tag{10}
 $$
 
 $$
 |\Phi^-\rangle = \frac{1}{\sqrt{2}}(|00\rangle - |11\rangle)
+\tag{11}
 $$
 
 $$
 |\Psi^+\rangle = \frac{1}{\sqrt{2}}(|01\rangle + |10\rangle)
+\tag{12}
 $$
 
 $$
 |\Psi^-\rangle = \frac{1}{\sqrt{2}}(|01\rangle - |10\rangle)
+\tag{13}
 $$
 
 PS: we will study about entanglement in detail later.
@@ -191,7 +204,8 @@ Remember flipping a coin? Heads or tails, a clear answer. Now imagine flipping a
 
 **Math Unveils the Magic:** Quantum mechanics describes superposition using the **ket vector** notation. A qubit in superposition is represented as:
 $$
-|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+|\psi\rangle = \alpha|0\rangle + \beta|1\
+\tag{14}
 $$
 
 where:
@@ -215,3 +229,32 @@ This "parallel processing" empowers QML to tackle complex problems beyond classi
 * **AI for Everyone:** Quantum-powered AI algorithms could break barriers, solving problems like NP-hard and NP.
 
 **Beyond the Basics:** Remember, measuring a qubit "collapses" its superposition, forcing it into a definite 0 or 1 state. Additionally, superposition is fragile and easily disrupted, requiring extremely cool environments (near 0 kelvin temperatures ) for quantum computers.
+
+#### Example
+Consider we have a qubit \(\alpha\) which has a probability of 50% of being in state \(|0\rangle\) and 50% of being in state \(|1\rangle\) (it will only 0 and 1 as either of the possiblity and nothing else). This can be represented as:
+
+$$
+|\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle
+\tag{15}
+\label{eq:15}
+$$
+
+This can be rewritten as:
+
+$$
+|\psi\rangle = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 \\ 0 \end{bmatrix} + \frac{1}{\sqrt{2}}\begin{bmatrix} 0 \\ 1 \end{bmatrix}
+\tag{16}
+$$
+
+Expanding and simplifying this expression, we get:
+
+$$
+|\psi\rangle = \begin{bmatrix} \frac{1}{\sqrt{2}} \\ 0 \end{bmatrix} + \begin{bmatrix} 0 \\ \frac{1}{\sqrt{2}} \end{bmatrix} = \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} \end{bmatrix}
+\tag{17}
+$$
+
+In equation \(\ref{eq:15}\) the *\( \frac{1}{\sqrt{2}} \)* represents the value of *\( \alpha \)* and *\( \beta \)*. The probability of the qubit being in state *\( |0\rangle \)* is *\( |\alpha|^2 = \frac{1}{2} \)* and the probability of the qubit being in state *\( |1\rangle \)* is *\( |\beta|^2 = \frac{1}{2} \)*. The sum of the probabilities is 1, which is a requirement for a qubit to be in a valid superposition state.
+
+
+#### Limitations
+Superposition is a powerful concept, but it has its limitations. The biggest limitation is that the superposition is very fragile. Any interaction with heat, light or any other form of energy which is not at ~0 kelvin temperature will cause the qubit to collapse into a definite state. Now you must be wondering that we cannot measure or observe the qubit when it expresses superposition, but that's not true. We can measure the qubit when it is in superposition, but the act of measuring will cause the qubit to collapse into a definite state. This is called the "collapse of the wave function" or "quantum decoherence". We will study about this in detail later.

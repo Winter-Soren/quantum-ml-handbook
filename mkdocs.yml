@@ -15,10 +15,9 @@ theme:
     font:
       text: Roboto
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
     - toc.follow
+    - toc.integrate
+    - navigation.tabs
     - navigation.top
     - navigation.instant
     - navigation.instant.prefetch
@@ -27,11 +26,11 @@ theme:
     - navigation.tracking
     - navigation.expand
     - navigation.path
-    - navigation.
     - navigation.sections
     - search.suggest
     - search.highlight
     - search.share
+    - content.tooltips
     - content.action.edit
     - content.action.view
     - content.tabs.link
@@ -58,7 +57,6 @@ extra_css:
   - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
-
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -70,6 +68,8 @@ extra_javascript:
 plugins:
   - search:
       prebuild_index: true
+  - minify:
+      minify_html: true
   - meta-descriptions
   # - projects
   # - optimize
