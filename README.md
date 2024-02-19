@@ -80,6 +80,10 @@ If you want to change the setup of the documentation, then refer to this website
 - [x] General issues in QC.
 - [x] Notations and representations.
 - [ ] Concepts (indepth intro to entanglement, superposition, block sphere, etc).
+    - [x] Qubits.
+    - [x] Superposition.
+    - [ ] Entanglement.
+    - [ ] Bloch Sphere.
 - [ ] Playing with qubits using concepts.
 - [ ] Understanding Quantum gates (analogy with classical gates).
 - [ ] Quantum circuits.
