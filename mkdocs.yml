@@ -15,8 +15,8 @@ theme:
     font:
       text: Roboto
   features:
+    # - toc.integrate
     - toc.follow
-    - toc.integrate
     - navigation.tabs
     - navigation.top
     - navigation.instant
@@ -26,7 +26,8 @@ theme:
     - navigation.tracking
     - navigation.expand
     - navigation.path
-    - navigation.sections
+    # - navigation.sections
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - search.share
@@ -53,6 +54,16 @@ theme:
       primary: deep-purple
       accent: amber
 
+nav:
+  - Overview:
+      - index.md
+  - Documentation:
+      - documentation/index.md
+      - Notations: documentation/notations.md
+      - Concepts: documentation/concepts.md
+  - References:
+      - references/index.md
+
 extra_css:
   - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
@@ -71,6 +82,7 @@ plugins:
   - minify:
       minify_html: true
   - meta-descriptions
+  # - toc-md
   # - projects
   # - optimize
   # - social
@@ -84,6 +96,7 @@ plugins:
 
 markdown_extensions:
   - toc:
+      # toc_depth: 3
       permalink: true
   - pymdownx.highlight:
       anchor_linenums:
