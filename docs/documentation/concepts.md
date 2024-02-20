@@ -57,7 +57,7 @@ Consider we have a qubit \(\alpha\) which has a probability of 50% of being in s
 $$
 |\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{1}{\sqrt{2}}|1\rangle
 \tag{15}
-\label{eq:15}
+% \label{eq:15}
 $$
 
 This can be rewritten as:
@@ -74,8 +74,74 @@ $$
 \tag{17}
 $$
 
-In equation \(\ref{eq:15}\) the *\( \frac{1}{\sqrt{2}} \)* represents the value of *\( \alpha \)* and *\( \beta \)*. The probability of the qubit being in state *\( |0\rangle \)* is *\( |\alpha|^2 = \frac{1}{2} \)* and the probability of the qubit being in state *\( |1\rangle \)* is *\( |\beta|^2 = \frac{1}{2} \)*. The sum of the probabilities is 1, which is a requirement for a qubit to be in a valid superposition state.
+In equation (15) the *\( \frac{1}{\sqrt{2}} \)* represents the value of *\( \alpha \)* and *\( \beta \)*. The probability of the qubit being in state *\( |0\rangle \)* is *\( |\alpha|^2 = \frac{1}{2} \)* and the probability of the qubit being in state *\( |1\rangle \)* is *\( |\beta|^2 = \frac{1}{2} \)*. The sum of the probabilities is 1, which is a requirement for a qubit to be in a valid superposition state.
 
 
 ### Limitations
-Superposition is a powerful concept, but it has its limitations. The biggest limitation is that the superposition is very fragile. Any interaction with heat, light or any other form of energy which is not at ~0 kelvin temperature will cause the qubit to collapse into a definite state. Now you must be wondering that we cannot measure or observe the qubit when it expresses superposition, but that's not true. We can measure the qubit when it is in superposition, but the act of measuring will cause the qubit to collapse into a definite state. This is called the "collapse of the wave function" or "quantum decoherence". We will study about this in detail late
+Superposition is a powerful concept, but it has its limitations. The biggest limitation is that the superposition is very fragile. Any interaction with heat, light or any other form of energy which is not at ~0 kelvin temperature will cause the qubit to collapse into a definite state. Now you must be wondering that we cannot measure or observe the qubit when it expresses superposition, but that's not true. We can measure the qubit when it is in superposition, but the act of measuring will cause the qubit to collapse into a definite state. This is called the "collapse of the wave function" or "quantum decoherence". We will study about this in detail later.
+
+## 3. Quantum Entanglement
+
+Buckle up, because now we're diving into entanglement, where things get even weirder and more wonderful. This spooky phenomenon, where qubits become mysteriously linked no matter the distance, is another cornerstone of quantum machine learning (QML). Let's unravel the magic behind this quantum entanglement, a concept that even Einstein called "spooky action at a distance."
+
+**Imagine this**: You and your best friend are each holding a spinning coin. Normally, each coin can be heads or tails independently. But with entanglement, it's like your coins are magically connected. Even if you're miles apart, when you measure one coin, you instantly know the state of the other, regardless of distance! It's as if they share a single fate, defying classical logic.
+
+Here, the state of a single coin is head or tail, but the state of the entangled pair is uncertain until you measure one. 
+
+**The Math Behind the Magic**: While entanglement seems like a magical connection, it's rooted in the math of quantum mechanics. We can represent entangled qubit using **joint key vector**, like a fancy equation that captures their connectedness. Imagine two qubits, A and B, being entangled:
+
+$$
+|\psi AB\rangle = \alpha|00\rangle + \beta|11\rangle
+\tag{18}
+$$
+
+
+Here, \( |00\rangle \) and \( |11\rangle \) are basis states representing the qubits being in state 0 and 1, respectively. The complex numbers \( \alpha \) and \( \beta \) define the probabilities of each state and satisfy \( |\alpha|^2 + |\beta|^2 = 1 \). The qubits are entangled when they're in this joint state, and measuring one instantly determines the state of the other, no matter the distance.
+
+Before diving more deeper into different types of entanglement, let's first understand the concept of "Bell State".
+
+### Bell State
+This is a special type of entangled state of two qubits. This is vanilla of entanglement. In reality, there are many qubits which are entangled in a more complex way, but Bell state is the simplest form of entanglement. It's like the "Hello World" of entanglement. 
+
+**The Mathematical Melody**: Each Bell state is represented by a mathematical equation, like a unique musical note in the quantum score. There are four main Bell states:
+
+1. **\( |\Phi^+\rangle \)**: This state is a superposition of both qubits being in state 0 and 1. It's like a quantum coin that's both heads and tails at the same time. The equation for this state is:
+
+$$
+|\Phi^+\rangle = \frac{1}{\sqrt{2}}|00\rangle + \frac{1}{\sqrt{2}}|11\rangle
+\tag{19}
+$$
+
+2. **\( |\Phi^-\rangle \)**: This state is a superposition of both qubits being in state 0 and 1, but with a negative sign. It's like a quantum coin that's both heads and tails at the same time, but with a twist. The equation for this state is:
+
+$$
+|\Phi^-\rangle = \frac{1}{\sqrt{2}}|00\rangle - \frac{1}{\sqrt{2}}|11\rangle
+\tag{20}
+$$
+
+3. **\( |\Psi^+\rangle \)**: This state is a superposition of one qubit being in state 0 and the other being in state 1. It's like a quantum coin that's either heads or tails, but you don't know which. The equation for this state is:
+
+$$
+|\Psi^+\rangle = \frac{1}{\sqrt{2}}|01\rangle + \frac{1}{\sqrt{2}}|10\rangle
+\tag{21}
+$$
+
+4. **\( |\Psi^-\rangle \)**: This state is a superposition of one qubit being in state 0 and the other being in state 1, but with a negative sign. It's like a quantum coin that's either heads or tails, but with a twist. The equation for this state is:
+
+$$
+|\Psi^-\rangle = \frac{1}{\sqrt{2}}|01\rangle - \frac{1}{\sqrt{2}}|10\rangle
+\tag{22}
+$$
+
+These Bell states are the foundation of quantum entanglement, and they're the building blocks for more complex entangled states. They're like the "saa-ree-ga" (or "do-re-mi") of the quantum world, setting the stage for the entangled symphony. In simple, you can imagine as two dancers, always moving in harmony, no matter how far apart they are.
+
+<!-- ### Types of Entanglement
+Entanglement is not just limited to Bell states. There are many different types of entanglement. Some of the most common types of entanglement are: -->
+
+<!-- 1. **Bell State Entanglement**: This is the simplest form of entanglement. It's like the "Hello World" of entanglement. In reality, there are many qubits which are entangled in a more complex way, but Bell state is the simplest form of entanglement. It's like the "Hello World" of entanglement.
+
+2. **GHZ State Entanglement**: This is a more complex form of entanglement. It involves three or more qubits, and it's like a quantum dance where all the qubits are entangled in a complex pattern. It's named after the physicists who first proposed it, Greenberger, Horne, and Zeilinger.
+
+3. **W State Entanglement**: This is another complex form of entanglement. It involves three or more qubits, and it's like a quantum dance where all the qubits are entangled in a different complex pattern. It's named after the physicist who first proposed it, William Wootters. -->
+
+
