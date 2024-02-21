@@ -144,4 +144,60 @@ Entanglement is not just limited to Bell states. There are many different types 
 
 3. **W State Entanglement**: This is another complex form of entanglement. It involves three or more qubits, and it's like a quantum dance where all the qubits are entangled in a different complex pattern. It's named after the physicist who first proposed it, William Wootters. -->
 
+### Types of Entanglement
+Now that you've grasped the essence of Bell states, let's take a deeper dive into the diverse world of entanglement! We'll explore three prominent types: Bell State (Vanilla), GHZ, and W states, unveiling their unique properties and applications.
+
+#### 1. Bell States (Vanilla)
+- **Nature**: Simplest form of entanglement, like the "Hello World" of quantum. It shows non-local correlations between two qubits. Non-local means that the qubits are connected regardless of distance.
+- **Number of qubits involved**: 2
+- **Key features**:
+    - Easy to create and manipulate. (here manipulation refers to the operations that can be performed on the qubits)
+    - Forms the foundation for more complex entangled states.
+    - Building blocks for quantum teleportation and superdense coding.
+- **Example**: \(\Phi^+\), \(\Phi^-\), \(\Psi^+\), \(\Psi^-\)
+- **Analogy**: Imagine two coins, each with a special property: when flipped simultaneously, they always land heads-heads or tails-tails (\(\Phi^+\)) or opposite (\(\Phi^-\)), or one heads and one tails but their combination is random (\(\Psi^{+,-}\)). This defies classical expectations where coin flips are independent.
+
+
+
+#### 2. GHZ States
+- **Nature**:  Multi-qubit entanglement offering stronger correlations and unique properties like "all or nothing" behavior. The "all of nothing" behavior refers to the fact that if one qubit is measured, the state of all the qubits can be determined. 
+- **Number of qubits involved**: 3 or more
+- **Key features**:
+    - Exhibits non-local correlations among multiple qubits.
+    - Enables quantum error correction and fault-tolerant quantum computing.
+    - Foundation for quantum secret sharing and secure multi-party computation.
+    - Robust against local noise. (here refers to the noise that affects the qubits locally and not globally)
+- **Example**: 
+
+$$
+|\text{GHZ+}\rangle = \frac{1}{\sqrt{2}}(|000\rangle + |111\rangle)
+\tag{23}
+$$
+
+$$
+|\text{GHZ-}\rangle = \frac{1}{\sqrt{2}}(|000\rangle - |111\rangle)
+\tag{24}
+$$
+
+Here, GHZ+ and GHZ- are the two types of GHZ states. The GHZ+ state is a superposition of all qubits being in state 0 and all qubits being in state 1. The GHZ- state is a superposition of all qubits being in state 0 and all qubits being in state 1, but with a negative sign.
+
+- **Analogy**: Think of three friends making a pact. They each write down a random "0" or "1" without communicating. When they reveal their choices, all three have the same answer (GHZ+) or all different (GHZ-). It's like they mysteriously coordinated their choices, even without any signal.
+
+#### 3. W States
+- **Nature**:  Multi-qubit entanglement with a unique pattern of correlations, distinct from GHZ states. It's like a quantum dance where all the qubits are entangled in a different complex pattern. The pattern can be different for different number of qubits.
+- **Number of qubits involved**: 3
+- **Key features**:
+    - Resilient to errors in one qubit, preserving information in the remaining two.
+    - Crucial for building reliable quantum computation architectures.
+    - Used in protocols like teleportation and error correction.
+- **Example**:
+
+$$
+|\text{W}\rangle = \frac{1}{\sqrt{3}}(|001\rangle + |010\rangle + |100\rangle)
+\tag{25}
+$$
+
+Here, 001, 010 and 100 are the different combinations of the qubits being in state 0 and 1. And the W state is a superposition of these combinations. We write \(\sqrt{3}\) because the there are 3 terms in the superposition.
+
+- **Analogy**: Imagine three friends sharing a secret message encoded in three coins. If one friend loses their coin, the remaining two can still reconstruct the message due to the special way they were prepared (entangled). This unique property allows for error correction in quantum systems.
 
