@@ -92,7 +92,7 @@ If you want to change the setup of the documentation, then refer to this website
 - [ ] Concepts (indepth intro to entanglement, superposition, block sphere, etc).
     - [x] Qubits.
     - [x] Superposition.
-    - [ ] Entanglement.
+    - [x] Entanglement.
     - [ ] Bloch Sphere.
 - [ ] Playing with qubits using concepts.
 - [ ] Understanding Quantum gates (analogy with classical gates).
