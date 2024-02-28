@@ -82,6 +82,7 @@ plugins:
   - minify:
       minify_html: true
   - meta-descriptions
+  - glightbox
   # - toc-md
   # - projects
   # - optimize
@@ -113,6 +114,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
 
 copyright: |
   &copy; 2024 <a href="https://github.com/winter-soren"  target="_blank" rel="noopener">Soham Bhoir</a>
