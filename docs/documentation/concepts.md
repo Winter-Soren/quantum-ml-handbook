@@ -220,7 +220,7 @@ Scaling up the castle is even harder. Imagine adding more smoke rings, intricate
 
 Beyond the technical aspects, practical limitations loom. Imagine trying to integrate your smoke castle into a brick-and-mortar world.
 
-## 4. Block Sphere 
+## 4. Bloch Sphere 
 Imagine a globe representing the Earth. On this globe, any point you choose can represent a specific location. Similarly, the Bloch sphere is a 3D unit sphere used to visualize the state of a single qubit in quantum mechanics. Just like points on the globe, points on the Bloch sphere represent different possibilities for the qubit's state, but instead of locations, they represent the probabilities of being 0 or 1.
 
 ### Classical Analogy
