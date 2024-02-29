@@ -18,6 +18,7 @@ theme:
     # - toc.integrate
     - toc.follow
     - navigation.tabs
+    - navigation.footer
     - navigation.top
     - navigation.instant
     - navigation.instant.prefetch
@@ -61,6 +62,7 @@ nav:
       - documentation/index.md
       - Notations: documentation/notations.md
       - Fundamentals: documentation/fundamentals.md
+      - Quantum Gates and Circuits: documentation/gates-and-circuits.md
   - References:
       - references/index.md
 
