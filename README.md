@@ -94,7 +94,6 @@ If you want to change the setup of the documentation, then refer to this website
     - [x] Superposition.
     - [x] Entanglement.
     - [x] Bloch Sphere.
-- [ ] Playing with qubits using concepts.
 - [ ] Understanding Quantum gates (analogy with classical gates).
 - [ ] Quantum circuits.
 - [ ] How to construct any circuit.
