@@ -60,7 +60,7 @@ nav:
   - Documentation:
       - documentation/index.md
       - Notations: documentation/notations.md
-      - Concepts: documentation/concepts.md
+      - Fundamentals: documentation/fundamentals.md
   - References:
       - references/index.md
 

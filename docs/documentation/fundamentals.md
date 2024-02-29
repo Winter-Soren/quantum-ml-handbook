@@ -337,3 +337,11 @@ After, putting the values of the state vector in the above equations, we get:
 
 
  -->
+
+Visualizing the bloch sphere in your mind can be tricky, you can explore the simulation of bloch sphere by exploring the websites below:
+
+1. [Grokking the Bloch Sphere](https://javafxpert.github.io/grok-bloch/)
+2. [Bloch Sphere Simulation](https://bits-and-electrons.github.io/bloch-sphere-simulator/)
+3. [Bloch Sphere Simulation 2](https://attilakun.net/bloch/)
+
+Feel free to randomly select the state of the qubit and try to plot it on the Bloch sphere. This will help you to understand the concept better. You will also be able to see some quantum gates and their effect on the state of the qubit. We will study about quantum gates in the next section.
