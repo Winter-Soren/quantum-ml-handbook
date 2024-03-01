@@ -3,11 +3,35 @@
 This repository contains comprehensive documentation on Quantum Machine Learning (QML), aimed at beginners and practitioners interested in exploring the intersection of quantum computing and machine learning.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Project Structure](#project-structure)
+1. [How to get started with the documentation](#how-to-get-started-with-the-documentation)
+2. [Contribution Guidelines](./CONTRIBUTING.md)
 3. [Status of the Project](#status-of-the-project)
-4. [Contributing](#contributing)
-5. [License](#license)
+4. [Installation](#installation)
+5. [Project Structure](#project-structure)
+6. [License](#license)
+
+## How to get started with the documentation
+When you go to the [live website](https://qml-documentation.netlify.app/) or local server [after installation](#installation), you will see the following tabs in the navigation bar:
+
+![Navigation Tabs image](./docs/assets/navigation-tabs.png)
+ie: the overview, documentation, references, and the search bar.
+
+* The [`Overview`](https://qml-documentation.netlify.app/) tab contains the introduction to the documentation. 
+* The [`Documentation`](https://qml-documentation.netlify.app/documentation/) tab contains the main content of the documentation. 
+* The [`References`](https://qml-documentation.netlify.app/references/) tab contains the references used in the documentation. 
+
+
+The `Documentation` tab contains the following sub-tabs:
+
+![Documentation subtabs](./docs/assets/documentation-subtabs.png)
+
+* The [`Documentation`](https://qml-documentation.netlify.app/documentation/) sub-tab contains a very brief about what is quantum machine learning. 
+* The [`Notations`](https://qml-documentation.netlify.app/documentation/notations/) sub-tab contains all the notations used in the documentation. 
+* The [`Fundamentals`](https://qml-documentation.netlify.app/documentation/fundamentals/) sub-tab contains the in-depth introduction to concepts of quantum mechanics to understand fundamentals of quantum machine learning. 
+* The [`Quantum Gates and Circuits`](https://qml-documentation.netlify.app/documentation/gates-and-circuits/) sub-tab contains the in-depth introduction and walkthrough of quantum gates and circuits.
+
+If you are beginner, then you should start with the `Notations` sub-tab, then move to the `Fundamentals` sub-tab, and then to the `Quantum Gates and Circuits` sub-tab.
+
 
 ## Installation
 before you start, make sure you have the following installed:
@@ -89,20 +113,43 @@ If you want to change the setup of the documentation, then refer to this website
 - [x] Overview.
 - [x] General issues in QC.
 - [x] Notations and representations.
-- [ ] Concepts (indepth intro to entanglement, superposition, block sphere, etc).
+- [X] Fundamentals of Quantum Mechanics.
     - [x] Qubits.
     - [x] Superposition.
     - [x] Entanglement.
     - [x] Bloch Sphere.
 - [ ] Understanding Quantum gates (analogy with classical gates).
+    - [ ] Single qubit gates.
+        - [ ] Pauli gates.
+        - [ ] Hadamard gate.
+        - [ ] Phase gate.
+        - [ ] T gate.
+        - [ ] S gate.
+        - [ ] U gate.
+    - [ ] Multi qubit gates.
+        - [ ] CNOT gate.
+        - [ ] SWAP gate.
+        - [ ] Toffoli gate.
+        - [ ] Fredkin gate.
+        - [ ] Controlled U gate.
+        - [ ] Controlled phase gate.
+    - [ ] Universal gates.
+        - [ ] X, Y, Z gates.
+        - [ ] Hadamard gate.
+        - [ ] CNOT gate.
+        - [ ] Toffoli gate.
+        - [ ] SWAP gate.
+        - [ ] Fredkin gate.
 - [ ] Quantum circuits.
-- [ ] How to construct any circuit.
+    - [ ] How to construct any circuit.
 - [ ] Quantum ML algorithms (algos like SVM, KNN etc).
+- [ ] Quantum Neural Networks.
+- [ ] Quantum Convolutional Neural Networks.
+- [ ] Quantum Generative Adversarial Networks.
+- [ ] Quantum Reinforcement Learning.
+- [ ] Quantum Transfer Learning.
+- [ ] Quantum Autoencoders.
 
-
-
-## Contribution
-Contributions to this documentation are welcome! Feel free to submit pull requests, report issues, or suggest improvements to help make this resource even better for the community.
 
 ## License
 MIT License
