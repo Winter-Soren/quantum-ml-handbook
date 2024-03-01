@@ -33,6 +33,49 @@ The `Documentation` tab contains the following sub-tabs:
 If you are beginner, then you should start with the `Notations` sub-tab, then move to the `Fundamentals` sub-tab, and then to the `Quantum Gates and Circuits` sub-tab.
 
 
+## Status of the Project
+- [x] The framework of the documentation is ready.
+- [x] Overview.
+- [x] General issues in QC.
+- [x] Notations and representations.
+- [X] Fundamentals of Quantum Mechanics.
+    - [x] Qubits.
+    - [x] Superposition.
+    - [x] Entanglement.
+    - [x] Bloch Sphere.
+- [ ] Understanding Quantum gates (analogy with classical gates).
+    - [ ] Single qubit gates.
+        - [ ] Pauli gates.
+        - [ ] Hadamard gate.
+        - [ ] Phase gate.
+        - [ ] T gate.
+        - [ ] S gate.
+        - [ ] U gate.
+    - [ ] Multi qubit gates.
+        - [ ] CNOT gate.
+        - [ ] SWAP gate.
+        - [ ] Toffoli gate.
+        - [ ] Fredkin gate.
+        - [ ] Controlled U gate.
+        - [ ] Controlled phase gate.
+    - [ ] Universal gates.
+        - [ ] X, Y, Z gates.
+        - [ ] Hadamard gate.
+        - [ ] CNOT gate.
+        - [ ] Toffoli gate.
+        - [ ] SWAP gate.
+        - [ ] Fredkin gate.
+- [ ] Quantum circuits.
+    - [ ] How to construct any circuit.
+- [ ] Quantum ML algorithms (algos like SVM, KNN etc).
+- [ ] Quantum Neural Networks.
+- [ ] Quantum Convolutional Neural Networks.
+- [ ] Quantum Generative Adversarial Networks.
+- [ ] Quantum Reinforcement Learning.
+- [ ] Quantum Transfer Learning.
+- [ ] Quantum Autoencoders.
+
+
 ## Installation
 before you start, make sure you have the following installed:
 - Python 3.6 or later
@@ -108,47 +151,7 @@ If you want to add any new pulgins, then refer to this website for reference [mk
 If you want to change the setup of the documentation, then refer to this website for reference [mkdocs setup](https://squidfunk.github.io/mkdocs-material/setup/)
 
 
-## Status of the Project
-- [x] The framework of the documentation is ready.
-- [x] Overview.
-- [x] General issues in QC.
-- [x] Notations and representations.
-- [X] Fundamentals of Quantum Mechanics.
-    - [x] Qubits.
-    - [x] Superposition.
-    - [x] Entanglement.
-    - [x] Bloch Sphere.
-- [ ] Understanding Quantum gates (analogy with classical gates).
-    - [ ] Single qubit gates.
-        - [ ] Pauli gates.
-        - [ ] Hadamard gate.
-        - [ ] Phase gate.
-        - [ ] T gate.
-        - [ ] S gate.
-        - [ ] U gate.
-    - [ ] Multi qubit gates.
-        - [ ] CNOT gate.
-        - [ ] SWAP gate.
-        - [ ] Toffoli gate.
-        - [ ] Fredkin gate.
-        - [ ] Controlled U gate.
-        - [ ] Controlled phase gate.
-    - [ ] Universal gates.
-        - [ ] X, Y, Z gates.
-        - [ ] Hadamard gate.
-        - [ ] CNOT gate.
-        - [ ] Toffoli gate.
-        - [ ] SWAP gate.
-        - [ ] Fredkin gate.
-- [ ] Quantum circuits.
-    - [ ] How to construct any circuit.
-- [ ] Quantum ML algorithms (algos like SVM, KNN etc).
-- [ ] Quantum Neural Networks.
-- [ ] Quantum Convolutional Neural Networks.
-- [ ] Quantum Generative Adversarial Networks.
-- [ ] Quantum Reinforcement Learning.
-- [ ] Quantum Transfer Learning.
-- [ ] Quantum Autoencoders.
+
 
 
 ## License
