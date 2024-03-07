@@ -45,7 +45,7 @@ If you are beginner, then you should start with the `Notations` sub-tab, then mo
     - [x] Bloch Sphere.
 - [ ] Understanding Quantum gates (analogy with classical gates).
     - [ ] Single qubit gates.
-        - [ ] Pauli gates.
+        - [x] Pauli gates.
         - [ ] Hadamard gate.
         - [ ] Phase gate.
         - [ ] T gate.
