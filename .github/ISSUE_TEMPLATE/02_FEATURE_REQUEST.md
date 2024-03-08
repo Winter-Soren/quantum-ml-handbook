@@ -1,9 +1,9 @@
 ---
 name: Feature Request
 about: Suggest an idea for this documentation
-title: "feat: "
-labels: "enhancement"
-assignees: ""
+title: 'feat: '
+labels: 'enhancement'
+assignees: ''
 ---
 
 # Feature Request
@@ -31,5 +31,5 @@ assignees: ""
 **If the feature request is approved, would you be willing to submit a PR?**
 _(Help can be provided if you need assistance submitting a PR)_
 
-- [ ] Yes
-- [ ] No
+-   [ ] Yes
+-   [ ] No

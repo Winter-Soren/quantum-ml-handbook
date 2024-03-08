@@ -4,9 +4,11 @@ sidebar_label: 6. State vs Phase of Qubit
 ---
 
 # 5. State vs Phase of the Qubit
+
 State of the qubit and phase of the qubit are two different concepts. Let's understand them one by one.
 
 ## State of the Qubit
+
 The state of a qubit is represented by a point on the Bloch sphere. As in the previous studies, we have seen that the state of a qubit can be represented by a vector. This vector can be represented by a point on the Bloch sphere. The state of the qubit can be in any of the following states:
 
 1. **$ |0\rangle $ state**: This state is represented by the north pole of the Bloch sphere. This is the state where the qubit is definitely in the state 0. The probability of the qubit being in state 0 is 1 and the probability of the qubit being in state 1 is 0.
@@ -16,12 +18,13 @@ The state of a qubit is represented by a point on the Bloch sphere. As in the pr
 3. **Superposition state**: This state is represented by a point on the equator of the Bloch sphere. This is the state where the qubit is in a combination of both states 0 and 1. The probability of the qubit being in state 0 is $ |\alpha|^2 $ and the probability of the qubit being in state 1 is $ |\beta|^2 $. The sum of the probabilities is 1, which is a requirement for a qubit to be in a valid superposition state.
 
 ## Phase of the Qubit
-The phase of a qubit represents the angle of the state vector on the Bloch sphere. The phase of the qubit is represented by the angle $ \phi $ in the state vector. 
+
+The phase of a qubit represents the angle of the state vector on the Bloch sphere. The phase of the qubit is represented by the angle $ \phi $ in the state vector.
 
 Matheatically, the phase of the qubit is represented as the argument of the complex number $ \alpha $ and $ \beta $. The argument of a complex number is the angle between the positive real axis and the line joining the point to the origin. The argument of a complex number is represented by the angle $ \phi $ in the state vector. The phase of the qubit is a complex number that represents the probability amplitudes of the qubit being in state 0 and state 1.
 
 $$
-\phi = \arg(\beta) - \arg(\alpha) 
+\phi = \arg(\beta) - \arg(\alpha)
 \tag{1}
 $$
 

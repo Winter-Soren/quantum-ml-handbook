@@ -3,13 +3,16 @@ sidebar_position: 5
 sidebar_label: 5. Bloch Sphere
 ---
 
-# Bloch Sphere 
+# Bloch Sphere
+
 Imagine a globe representing the Earth. On this globe, any point you choose can represent a specific location. Similarly, the Bloch sphere is a 3D unit sphere used to visualize the state of a single qubit in quantum mechanics. Just like points on the globe, points on the Bloch sphere represent different possibilities for the qubit's state, but instead of locations, they represent the probabilities of being 0 or 1.
 
 ## Classical Analogy
-In classical computers, bits can be either 0 or 1. We can think of this as two points on a line, with 0 at one end and 1 at the other. But in quantum computing, qubits can exist in a superposition of 0 and 1, so we need a more complex representation. The Bloch sphere provides a visual way to understand this complex state. 
+
+In classical computers, bits can be either 0 or 1. We can think of this as two points on a line, with 0 at one end and 1 at the other. But in quantum computing, qubits can exist in a superposition of 0 and 1, so we need a more complex representation. The Bloch sphere provides a visual way to understand this complex state.
 
 ## Mathematical Representation
+
 The state of a qubit can be represented by a point on the Bloch sphere. The north pole represents the state \( |0\rangle \), the south pole represents the state \( |1\rangle \), and the equator represents superposition states. The point on the sphere represents the probability amplitudes \( \alpha \) and \( \beta \) of the qubit being in state \( |0\rangle \) and \( |1\rangle \), respectively.
 
 We try to express qubit's state using complex numbers. Each point on the sphere is defined by two angles \( \theta \) (as latitude) and \( \phi \) (as longitude) and radius \(\rho \). These values correspond to the probability of the qubit being 0, the probability of being 1, and the overall "mixedness" of the state, respectively.
@@ -17,7 +20,7 @@ We try to express qubit's state using complex numbers. Each point on the sphere 
 <figure markdown="span" align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/1024px-Bloch_sphere.svg.png" alt="Bloch Sphere" width="300"/>
     <figcaption>Fig 1. Bloch Sphere</figcaption> 
-</figure> 
+</figure>
 
 For the purpose of understanding, we will divide the Bloch sphere into the northern hemisphere and the southern hemisphere. Then, we will further divide the northern hemisphere into two parts: one part will be the eastern hemisphere, and the other part will be the western hemisphere. Similarly, we will divide the southern hemisphere into two parts: one part will be the eastern hemisphere, and the other part will be the western hemisphere.
 
@@ -82,7 +85,6 @@ $$
 \end{align*}
 $$
 
-
 <!-- Okay, now let's try to take an example and will try to plot the state of the qubit on the Bloch sphere.
 
 ### Example
@@ -128,4 +130,3 @@ Visualizing the bloch sphere in your mind can be tricky, you can explore the sim
 3. [Bloch Sphere Simulation 2](https://attilakun.net/bloch/)
 
 Feel free to randomly select the state of the qubit and try to plot it on the Bloch sphere. This will help you to understand the concept better. You will also be able to see some quantum gates and their effect on the state of the qubit. We will study about quantum gates in the next section.
-

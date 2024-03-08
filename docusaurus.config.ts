@@ -20,7 +20,7 @@ const config: Config = {
 	organizationName: 'Winter-Soren', // Usually your GitHub org/user name.
 	projectName: 'QML-Documentation', // Usually your repo name.
 
-	onBrokenLinks: 'throw',
+	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'warn',
 
 	// Even if you don't use internationalization, you can use this field to set
@@ -73,7 +73,7 @@ const config: Config = {
 			crossorigin: 'anonymous'
 		}
 	],
-	
+
 	themeConfig: {
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',

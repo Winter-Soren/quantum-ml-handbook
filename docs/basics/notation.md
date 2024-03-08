@@ -4,19 +4,21 @@ sidebar_label: 1. Notations
 ---
 
 # Notations
+
 Let's begin from the very scratch. We will start by understanding the notations and conventions used in quantum computing. This will help us in understanding the rest of the concepts easily.
 
 ## 1. Bra-Ket Notation aka Dirac Notation
+
 The most common notation used in quantum mechanics is the `bra-ket` notation, also known as the `Dirac` notation. You must know about this because because you will come across it when you read research papers involving quantum computing.
 
-The notation uses angle brackets, `〈 〉`, and a vertical bar,` | `, to construct “bras” and “kets”. A “ket” looks like this: ` |v〉`. Mathematically it denotes a vector, v, in a complex vector space V. Physically, it represents the state of a quantum system.
+The notation uses angle brackets, `〈 〉`, and a vertical bar,`|`, to construct “bras” and “kets”. A “ket” looks like this: ` |v〉`. Mathematically it denotes a vector, v, in a complex vector space V. Physically, it represents the state of a quantum system.
 
 A “bra” looks like this:`〈f| `. Mathematically, it denotes a linear function f: V → C, i.e. a linear map that maps each vector in V to a number in the complex plane C.
 
 Letting a linear function〈f| act on a vector |v〉is written as: `〈f|v〉⍷  C`. This is called the inner product of the two vectors.
 
-
 ## 2. Vectors
+
 Vector expressed as ket |v〉, `v` is represented as:
 
 $$
@@ -25,7 +27,7 @@ v_0 \\
 v_1 \\
 \vdots \\
 v_n \\
-\end{bmatrix} = |v\rangle 
+\end{bmatrix} = |v\rangle
 \tag{1}
 $$
 
@@ -51,6 +53,7 @@ v_n \\
 $$
 
 ## 3. Inner Product aka Dot Product
+
 The inner product of two vectors |u〉 and |v〉 is denoted as 〈u|v〉. It is a complex number and scalar. The inner product of two vectors is given by:
 
 $$
@@ -66,8 +69,8 @@ v_n \\
 \tag{4}
 $$
 
-
 ## 4. Outer Product aka Tensor Product
+
 The outer product of two vectors |u〉 and |v〉 is denoted as |u〉〈v|. It is a matrix. The outer product of two vectors is given by:
 
 $$
@@ -89,6 +92,7 @@ u_n\bar{v_0} & u_n\bar{v_1} & \cdots & u_n\bar{v_n} \\
 $$
 
 ## 5. Cross Product
+
 The cross product of two vectors |u〉 and |v〉 is denoted as |u×v〉. It is a vector. The cross product of two vectors is given by:
 
 $$
@@ -101,6 +105,7 @@ u_0v_1 - u_1v_0 \\
 $$
 
 ## 6. Pauli Matrices
+
 The Pauli matrices are a set of three 2x2 complex matrices that are fundamental in quantum mechanics. They are denoted by $\sigma_x$, $\sigma_y$, and $\sigma_z$. They are given by:
 
 $$
@@ -132,6 +137,7 @@ Pauli Matrix represents the spin of a particle in the x, y, and z directions. Th
 PS: spin are defined as angular momentum of a particle. (we will study about pauli gates in detail later)
 
 ## 7. Bell State
+
 The Bell state is a maximally entangled state of two qubits. In layman terms it is a state in which the two qubits are in a superposition of 0 and 1. The four Bell states are:
 
 $$
