@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+node_modules
+.docusaurus
+.vercel
+
+
 # Distribution / packaging
 .Python
 build/
