@@ -47,7 +47,7 @@ If you are beginner, then you should start with the `Notations` sub-tab, then mo
     - [ ] Single qubit gates.
         - [x] Pauli gates.
         - [x] Hadamard gate.
-        - [ ] Phase gate.
+        - [x] Phase gate.
         - [ ] T gate.
         - [ ] S gate.
         - [ ] U gate.
