@@ -46,7 +46,7 @@ If you are beginner, then you should start with the `Notations` sub-tab, then mo
 - [ ] Understanding Quantum gates (analogy with classical gates).
     - [ ] Single qubit gates.
         - [x] Pauli gates.
-        - [ ] Hadamard gate.
+        - [x] Hadamard gate.
         - [ ] Phase gate.
         - [ ] T gate.
         - [ ] S gate.
