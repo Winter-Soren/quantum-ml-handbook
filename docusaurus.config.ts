@@ -108,7 +108,7 @@ const config: Config = {
 					items: [
 						{
 							label: 'Tutorial',
-							to: '/docs/intro'
+							to: '/docs/basics'
 						}
 					]
 				},
@@ -133,8 +133,8 @@ const config: Config = {
 					title: 'More',
 					items: [
 						{
-							label: 'Blog',
-							to: '/blog'
+							label: 'Basics',
+							to: '/docs/basics'
 						},
 						{
 							label: 'GitHub',
