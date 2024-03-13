@@ -1,0 +1,82 @@
+{
+	"cache_date": "2024-03-09",
+	"page_authors": {
+		"docs/index.md": {
+			"last_commit_date": "2024-02-18",
+			"authors": [
+				{
+					"login": "Winter-Soren",
+					"name": "Winter-Soren",
+					"url": "https://github.com/Winter-Soren",
+					"avatar": "https://avatars.githubusercontent.com/u/81645360?v=4"
+				}
+			]
+		},
+		"docs/documentation/index.md": {
+			"last_commit_date": "2024-02-19",
+			"authors": [
+				{
+					"login": "Winter-Soren",
+					"name": "Winter-Soren",
+					"url": "https://github.com/Winter-Soren",
+					"avatar": "https://avatars.githubusercontent.com/u/81645360?v=4"
+				}
+			]
+		},
+		"docs/documentation/fundamentals.md": {
+			"last_commit_date": "2024-03-07",
+			"authors": [
+				{
+					"login": "Winter-Soren",
+					"name": "Winter-Soren",
+					"url": "https://github.com/Winter-Soren",
+					"avatar": "https://avatars.githubusercontent.com/u/81645360?v=4"
+				}
+			]
+		},
+		"docs/documentation/gates-and-circuits.md": {
+			"last_commit_date": "2024-03-07",
+			"authors": [
+				{
+					"login": "Winter-Soren",
+					"name": "Winter-Soren",
+					"url": "https://github.com/Winter-Soren",
+					"avatar": "https://avatars.githubusercontent.com/u/81645360?v=4"
+				}
+			]
+		},
+		"docs/documentation/notations.md": {
+			"last_commit_date": "2024-02-19",
+			"authors": [
+				{
+					"login": "Winter-Soren",
+					"name": "Winter-Soren",
+					"url": "https://github.com/Winter-Soren",
+					"avatar": "https://avatars.githubusercontent.com/u/81645360?v=4"
+				}
+			]
+		},
+		"docs/overview/index.md": {
+			"last_commit_date": "2024-02-19",
+			"authors": [
+				{
+					"login": "Winter-Soren",
+					"name": "Winter-Soren",
+					"url": "https://github.com/Winter-Soren",
+					"avatar": "https://avatars.githubusercontent.com/u/81645360?v=4"
+				}
+			]
+		},
+		"docs/references/index.md": {
+			"last_commit_date": "2024-02-19",
+			"authors": [
+				{
+					"login": "Winter-Soren",
+					"name": "Winter-Soren",
+					"url": "https://github.com/Winter-Soren",
+					"avatar": "https://avatars.githubusercontent.com/u/81645360?v=4"
+				}
+			]
+		}
+	}
+}

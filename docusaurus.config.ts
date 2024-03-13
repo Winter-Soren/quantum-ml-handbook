@@ -5,8 +5,9 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
-	title: 'QML Docs',
-	tagline: 'Dinosaurs are cool',
+	title: 'Quantum ML Handbook',
+	tagline:
+		'Comprehensive materials for busy scientists and engineers embarking on Quantum Machine Learning - advanced algorithms, optimization techniques, and beyond!',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -18,7 +19,7 @@ const config: Config = {
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: 'Winter-Soren', // Usually your GitHub org/user name.
-	projectName: 'QML-Documentation', // Usually your repo name.
+	projectName: 'Quantum ML Handbook', // Usually your repo name.
 
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'warn',
@@ -71,6 +72,11 @@ const config: Config = {
 			type: 'text/css',
 			integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
 			crossorigin: 'anonymous'
+		},
+		// gogle font inter var
+		{
+			href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap',
+			rel: 'stylesheet'
 		}
 	],
 
@@ -78,7 +84,7 @@ const config: Config = {
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',
 		navbar: {
-			title: 'QML Docs',
+			title: 'Quantum ML Handbook',
 			logo: {
 				alt: 'My Site Logo',
 				src: 'img/logo.svg'
