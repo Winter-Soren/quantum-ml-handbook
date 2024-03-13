@@ -11,6 +11,7 @@ import styles from './index.module.css';
 import Banner from '@site/src/sections/home/banner';
 import Features from '@site/src/sections/home/features';
 import Testimonials from '@site/src/sections/home/testimonials';
+import CallToAction from '@site/src/sections/home/cta';
 
 export default function Home(): JSX.Element {
 	const { siteConfig } = useDocusaurusContext();
@@ -24,6 +25,7 @@ export default function Home(): JSX.Element {
 			<Banner />
 			<Features />
 			<Testimonials />
+			<CallToAction />
 		</Layout>
 	);
 }

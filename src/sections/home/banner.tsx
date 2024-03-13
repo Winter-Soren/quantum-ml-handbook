@@ -1,5 +1,6 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Link from '@docusaurus/Link';
 import { Box, Button, Container, Stack, Typography, useTheme } from '@mui/material';
 import extTheme from '@site/src/components/extTheme';
 import { FaArrowRight } from 'react-icons/fa6';
@@ -19,7 +20,7 @@ const Banner = () => {
 				<img
 					src='/img/blue-qc.png'
 					alt='quantum computer clipart'
-					style={{ width: '20%', maxHeight: '100%' }}
+					style={{ width: '18%', maxHeight: '100%' }}
 				/>
 				<Box>
 					<Typography
@@ -53,6 +54,7 @@ const Banner = () => {
 								backgroundColor: theme.palette.primary.main
 							}
 						}}
+						
 					>
 						Start Learning
 					</Button>
@@ -62,9 +64,7 @@ const Banner = () => {
 						It's completely free!
 					</Typography>
 				</Box>
-                <Box
-                    
-                >
+				<Box>
 					<iframe
 						src='https://ghbtns.com/github-btn.html?user=winter-soren&amp;repo=qml-documentation&amp;type=star&amp;count=true&amp;size=large'
 						// frameBorder={0}
