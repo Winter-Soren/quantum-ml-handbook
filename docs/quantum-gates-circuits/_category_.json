@@ -1,0 +1,8 @@
+{
+	"label": "Quantum Gates & Circuits",
+	"position": 3,
+	"link": {
+		"type": "generated-index",
+		"description": "This section consists of manupulating states of qubits to create computation. This forms the core of quantum computing. Brace yourself, as our journey into quantum gates and circuits is going to be a bit (or more) bumpy. Psssst...!! Don't scroll down faster, you may have anxiety issues. Just kidding, scroll down as fast as you want."
+	}
+}
