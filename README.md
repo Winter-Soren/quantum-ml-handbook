@@ -11,26 +11,14 @@ This repository contains comprehensive documentation on Quantum Machine Learning
 6. [License](#license)
 
 ## How to get started with the documentation
-When you go to the [live website](https://qml-documentation.netlify.app/) or local server [after installation](#installation), you will see the following tabs in the navigation bar:
+When you go to the [live website](https://quantummlhandbook.vercel.app/) or local server [after installation](#installation), you will see the following tabs in the navigation bar:
 
-![Navigation Tabs image](./docs/assets/navigation-tabs.png)
-ie: the overview, documentation, references, and the search bar.
+* **Home**: This is the landing page of the documentation. It contains a brief overview of the documentation and the project.
 
-* The [`Overview`](https://qml-documentation.netlify.app/) tab contains the introduction to the documentation. 
-* The [`Documentation`](https://qml-documentation.netlify.app/documentation/) tab contains the main content of the documentation. 
-* The [`References`](https://qml-documentation.netlify.app/references/) tab contains the references used in the documentation. 
+`Under the Documentation drop down in navigation bar:`
+* **Basics**: This section contains the basics of quantum computing and quantum mechanics. It is aimed at beginners who are new to quantum computing and quantum mechanics. The contents are marked using 1, 2, 3, etc. to indicate the order of learning the topics
 
-
-The `Documentation` tab contains the following sub-tabs:
-
-![Documentation subtabs](./docs/assets/documentation-subtabs.png)
-
-* The [`Documentation`](https://qml-documentation.netlify.app/documentation/) sub-tab contains a very brief about what is quantum machine learning. 
-* The [`Notations`](https://qml-documentation.netlify.app/documentation/notations/) sub-tab contains all the notations used in the documentation. 
-* The [`Fundamentals`](https://qml-documentation.netlify.app/documentation/fundamentals/) sub-tab contains the in-depth introduction to concepts of quantum mechanics to understand fundamentals of quantum machine learning. 
-* The [`Quantum Gates and Circuits`](https://qml-documentation.netlify.app/documentation/gates-and-circuits/) sub-tab contains the in-depth introduction and walkthrough of quantum gates and circuits.
-
-If you are beginner, then you should start with the `Notations` sub-tab, then move to the `Fundamentals` sub-tab, and then to the `Quantum Gates and Circuits` sub-tab.
+* **Gates and Circuits**: This section contains the basics of quantum gates and circuits. It is aimed at beginners who are new to quantum gates and circuits.
 
 
 ## Status of the Project
@@ -78,44 +66,19 @@ If you are beginner, then you should start with the `Notations` sub-tab, then mo
 
 ## Installation
 before you start, make sure you have the following installed:
-- Python 3.6 or later
+- Node v18.x or higher
 
-install virtualenv using pip:
+install node_modules:
 ```bash
-pip install virtualenv
+npm install
 ```
 
-create a virtual environment `for windows` using the following command:
+to run the documentation locally, run the following command:
 ```bash
-python -m virtualenv venv
+npm start
 ```
 
-create a virtual environment `for linux` using the following command:
-```bash
-virtualenv venv
-```
-
-activate the virtual environment `for windows` using the following command:
-```bash
-venv\Scripts\activate
-```
-
-activate the virtual environment `for linux` using the following command:
-```bash
-source venv/bin/activate
-```
-
-install the required packages using the following command:
-```bash
-pip install -r requirements.txt
-```
-
-starting the mkdocs server
-```bash
-mkdocs serve
-```
-
-now you can access the documentation at `http://localhost:8000/` in your browser.
+now you can access the documentation at `http://localhost:3000/` in your browser.
 
 ## Project Structure
 The project structure is as follows:
@@ -124,34 +87,21 @@ The project structure is as follows:
 │   ├───ISSUE_TEMPLATE
 │   └───workflows
 ├───docs
-│   ├───assets
-│   ├───documentation
-│   |   ├───index.md
-│   |   ├───concepts.md
-│   |   ├───notations.md
-│   ├───javascripts
-|   |   |───katex.js
-|   |   |───mathjax.js
-│   ├───overview
-│   |   ├───index.md
-│   ├───references
-│   └───stylesheets
-│       └───extra.css
+│   ├───basics
+│   ├───gates-and-circuits
+│   
+├───src
+│   ├───components
+│   ├───pages
+│   ├───css
+│   ├───data
+│   ├───sections
+│   ├───theme
+├───static
 └───mkdocs.yml
 ```
 
-`mkdocs.yml` is the configuration file for the documentation, it contains the site name, the pages, and the theme.
-
-`docs` is the folder that contains the documentation pages, it contains the `index.md` file which is the home page of the documentation, and the `stylesheets` folder which contains the `extra.css` file that contains the custom styles for the documentation.
-
-To create a new page (ie the tab), go to `docs` folder and create a new markdown file with the name of the page you want to create. Automatically, the new page will be added to the navigation bar.
-
-If you want to add any new pulgins, then refer to this website for reference [mkdocs plugins](https://squidfunk.github.io/mkdocs-material/plugins/)
-
-If you want to change the setup of the documentation, then refer to this website for reference [mkdocs setup](https://squidfunk.github.io/mkdocs-material/setup/)
-
-
-
+this is standard file and folder structure of docusaurus v2. the static folder contains the images and after building the static folder will remain the same. the docs folder contains the markdown files for the documentation. the src folder contains the source code for the documentation. 
 
 
 ## License
