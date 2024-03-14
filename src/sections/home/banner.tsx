@@ -1,13 +1,14 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Link from '@docusaurus/Link';
-import { Box, Button, Container, Stack, Typography, useTheme } from '@mui/material';
-import extTheme from '@site/src/components/extTheme';
+import { Box, Button, Container, Stack, Typography, useTheme, useMediaQuery } from '@mui/material';
 import { FaArrowRight } from 'react-icons/fa6';
 
 const Banner = () => {
 	const { siteConfig } = useDocusaurusContext();
 	const theme = useTheme();
+	const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+	const isTablet = useMediaQuery(theme.breakpoints.down('md'));
 
 	return (
 		<Container>
@@ -25,19 +26,30 @@ const Banner = () => {
 				<Box>
 					<Typography
 						variant='h1'
-						sx={{ fontSize: 50, fontFamily: 'Inter', fontWeight: 700, color: theme.palette.text.primary }}
+						sx={{
+							fontSize: isMobile ? 28 : isTablet ? 43 : 52,
+							fontFamily: 'Inter',
+							fontWeight: 700,
+							color: theme.palette.text.primary
+						}}
+						align='center'
 					>
 						{siteConfig.title}
 					</Typography>
 				</Box>
 				<Box
 					sx={{
-						padding: '0 10%'
+						padding: isMobile ? 0 : '0 10%'
 					}}
 				>
 					<Typography
 						variant='h3'
-						sx={{ fontSize: 20, fontFamily: 'Inter', fontWeight: 400, color: theme.palette.text.primary }}
+						sx={{
+							fontSize: isMobile ? 16 : isTablet ? 20 : 24,
+							fontFamily: 'Inter',
+							fontWeight: 400,
+							color: theme.palette.text.primary
+						}}
 						align='center'
 					>
 						{siteConfig.tagline}
@@ -54,7 +66,6 @@ const Banner = () => {
 								backgroundColor: theme.palette.primary.main
 							}
 						}}
-						
 					>
 						Start Learning
 					</Button>
