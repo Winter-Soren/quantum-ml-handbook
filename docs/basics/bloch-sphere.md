@@ -13,9 +13,9 @@ In classical computers, bits can be either 0 or 1. We can think of this as two p
 
 ## Mathematical Representation
 
-The state of a qubit can be represented by a point on the Bloch sphere. The north pole represents the state \( |0\rangle \), the south pole represents the state \( |1\rangle \), and the equator represents superposition states. The point on the sphere represents the probability amplitudes \( \alpha \) and \( \beta \) of the qubit being in state \( |0\rangle \) and \( |1\rangle \), respectively.
+The state of a qubit can be represented by a point on the Bloch sphere. The north pole represents the state $ |0\rangle $, the south pole represents the state $ |1\rangle $, and the equator represents superposition states. The point on the sphere represents the probability amplitudes $ \alpha $ and $ \beta $ of the qubit being in state $ |0\rangle $ and $ |1\rangle $, respectively.
 
-We try to express qubit's state using complex numbers. Each point on the sphere is defined by two angles \( \theta \) (as latitude) and \( \phi \) (as longitude) and radius \(\rho \). These values correspond to the probability of the qubit being 0, the probability of being 1, and the overall "mixedness" of the state, respectively.
+We try to express qubit's state using complex numbers. Each point on the sphere is defined by two angles $ \theta $ (as latitude) and $ \phi $ (as longitude) and radius $\rho $. These values correspond to the probability of the qubit being 0, the probability of being 1, and the overall "mixedness" of the state, respectively.
 
 <figure markdown="span" align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/1024px-Bloch_sphere.svg.png" alt="Bloch Sphere" width="300"/>
@@ -24,28 +24,28 @@ We try to express qubit's state using complex numbers. Each point on the sphere 
 
 For the purpose of understanding, we will divide the Bloch sphere into the northern hemisphere and the southern hemisphere. Then, we will further divide the northern hemisphere into two parts: one part will be the eastern hemisphere, and the other part will be the western hemisphere. Similarly, we will divide the southern hemisphere into two parts: one part will be the eastern hemisphere, and the other part will be the western hemisphere.
 
-1. **Eastern hemisphere of Northern hemisphere**: Superposition states where the qubit is mostly in the \(|0\rangle\) state. Mathematically, these states are represented as:
+1. **Eastern hemisphere of Northern hemisphere**: Superposition states where the qubit is mostly in the $|0\rangle$ state. Mathematically, these states are represented as:
 
 $$
 |\psi\rangle = \cos\left(\frac{\theta}{2}\right)|0\rangle + e^{i\phi}\sin\left(\frac{\theta}{2}\right)|1\rangle
 \tag{1}
 $$
 
-2. **Western hemisphere of Northern hemisphere**: Superposition states where the qubit is mostly in the \(|1\rangle\) state. Mathematically, these states are represented as:
+2. **Western hemisphere of Northern hemisphere**: Superposition states where the qubit is mostly in the $|1\rangle$ state. Mathematically, these states are represented as:
 
 $$
 |\psi\rangle = \sin\left(\frac{\theta}{2}\right)|0\rangle + e^{i\phi}\cos\left(\frac{\theta}{2}\right)|1\rangle
 \tag{2}
 $$
 
-3. **Eastern hemisphere of Southern hemisphere**: Superposition states where the qubit is mostly in the \(|1\rangle\) state. Mathematically, these states are represented as:
+3. **Eastern hemisphere of Southern hemisphere**: Superposition states where the qubit is mostly in the $|1\rangle$ state. Mathematically, these states are represented as:
 
 $$
 |\psi\rangle = \cos\left(\frac{\theta}{2}\right)|0\rangle - e^{i\phi}\sin\left(\frac{\theta}{2}\right)|1\rangle
 \tag{3}
 $$
 
-4. **Western hemisphere of Southern hemisphere**: Superposition states where the qubit is mostly in the \(|0\rangle\) state. Mathematically, these states are represented as:
+4. **Western hemisphere of Southern hemisphere**: Superposition states where the qubit is mostly in the $|0\rangle$ state. Mathematically, these states are represented as:
 
 $$
 |\psi\rangle = -\sin\left(\frac{\theta}{2}\right)|0\rangle - e^{i\phi}\cos\left(\frac{\theta}{2}\right)|1\rangle
@@ -54,7 +54,7 @@ $$
 
 Further diving a little deeper into the vector representation. This is a unit vector (magnitude of 1) that points to a specific location on the sphere. The vector's components (x, y, and z) correspond to the expectation values of the Pauli spin matrices, which are fundamental operators in quantum mechanics.
 
-Here are the equations that relate the Bloch vector \(x, y, z\) to the angles (\(\theta, \phi\)) and the state vector (\(\psi\)):
+Here are the equations that relate the Bloch vector $x, y, z$ to the angles ($\theta, \phi$) and the state vector ($\psi$):
 
 $$
 \begin{align*}
@@ -95,11 +95,11 @@ $$
 \tag{30}
 $$
 
-PS: the \(i\) in the equation is the imaginary unit. We are adding here and not in the previous equations because the imaginary unit is a part of the state vector and not the probability amplitudes. Adding i in the probability amplitudes will make the state vector invalid. So, thats why we are adding i in the state vector and not in the probability amplitudes.
+PS: the $i$ in the equation is the imaginary unit. We are adding here and not in the previous equations because the imaginary unit is a part of the state vector and not the probability amplitudes. Adding i in the probability amplitudes will make the state vector invalid. So, thats why we are adding i in the state vector and not in the probability amplitudes.
 
 We can represent this state on the Bloch sphere using the following steps:
 
-1. **Calculate the angles**: We can calculate the angles \( \theta \) and \( \phi \) using the following equations:
+1. **Calculate the angles**: We can calculate the angles $ \theta $ and $ \phi $ using the following equations:
 
 $$
 \begin{align*}
@@ -108,7 +108,7 @@ $$
 \end{align*}
 $$
 
-Further calculating the values of \( \theta \) and \( \phi \), we get:
+Further calculating the values of $ \theta $ and $ \phi $, we get:
 
 $$
 \begin{align*}
