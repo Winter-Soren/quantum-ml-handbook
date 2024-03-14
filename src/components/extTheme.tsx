@@ -10,7 +10,7 @@ const extTheme = extendTheme({
 					light: 'hsl(240, 48%, 57%)',
 					dark: 'hsl(240, 48%, 37%)',
 					200: 'hsl(240, 48%, 67%)',
-					300: 'hsl(240, 48%, 77%)',
+					300: 'hsl(240, 48%, 77%)'
 				},
 				background: {
 					paper: 'hsl(240, 15%, 95%)'
@@ -29,7 +29,7 @@ const extTheme = extendTheme({
 					light: 'hsl(240, 90%, 80%)',
 					dark: 'hsl(240, 90%, 60%)',
 					200: 'hsl(240, 90%, 90%)',
-					300: 'hsl(240, 90%, 95%)',
+					300: 'hsl(240, 90%, 95%)'
 				},
 				background: {
 					paper: 'hsl(210, 3%, 15%)'

@@ -23,11 +23,11 @@ export default function Home(): JSX.Element {
 			description='Description will go into a meta tag in <head />'
 		>
 			{/* <Box> */}
-				<Banner />
-				<Features />
-				<Insides />
-				{/* <Testimonials /> */}
-				<CallToAction />
+			<Banner />
+			<Features />
+			<Insides />
+			{/* <Testimonials /> */}
+			<CallToAction />
 			{/* </Box> */}
 		</Layout>
 	);
