@@ -80,7 +80,7 @@ const Features = (props: Props) => {
 									variant='h4'
 									sx={{
 										fontFamily: 'Inter',
-										fontSize: isMobile ? 12 : isTablet ? 15 : 15,
+										fontSize: isMobile ? 13 : isTablet ? 15 : 15,
 										fontWeight: 400,
 										color: theme.palette.text.primary,
 										display: 'flex',
@@ -103,9 +103,10 @@ const Features = (props: Props) => {
 									sx={{
 										fontFamily: 'Inter',
 										fontSize: 14,
-										fontWeight: 300,
+										fontWeight: 350,
 										color: theme.palette.text.primary
 									}}
+									align='justify'
 								>
 									{feature.content}
 								</Typography>

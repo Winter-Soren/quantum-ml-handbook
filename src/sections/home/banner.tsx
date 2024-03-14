@@ -21,7 +21,10 @@ const Banner = () => {
 				<img
 					src='/img/blue-qc.png'
 					alt='quantum computer clipart'
-					style={{ width: '18%', maxHeight: '100%' }}
+					style={{
+						width: isMobile ? '42%' : isTablet ? '25%' : '18%',
+						maxHeight: '100%'
+					}}
 				/>
 				<Box>
 					<Typography
@@ -63,9 +66,12 @@ const Banner = () => {
 						sx={{
 							backgroundColor: theme.palette.primary.light,
 							'&:hover': {
-								backgroundColor: theme.palette.primary.main
+								backgroundColor: theme.palette.primary.main,
+								color: 'white'
 							}
 						}}
+						component={Link}
+						to='/docs/get-started'
 					>
 						Start Learning
 					</Button>

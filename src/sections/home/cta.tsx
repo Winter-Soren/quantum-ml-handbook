@@ -11,7 +11,8 @@ const CallToAction = (props: Props) => {
 			sx={{
 				backgroundColor: 'primary.main',
 				// color: 'white',
-				padding: '0 10%'
+				padding: '0 10%',
+				mt: 10
 			}}
 		>
 			<Stack
