@@ -55,6 +55,10 @@ const config: Config = {
 				},
 				theme: {
 					customCss: './src/css/custom.css'
+				},
+				gtag: {
+					trackingID: 'G-Q2W7KD4KVX',
+					anonymizeIP: true
 				}
 				// sitemap: {
 				// 	changefreq: EnumChangefreq.WEEKLY,
