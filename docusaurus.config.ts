@@ -90,13 +90,28 @@ const config: Config = {
 				src: 'img/logo.svg'
 			},
 			items: [
-				{ to: '/about', label: 'About', position: 'left' },
+				// { to: '/about', label: 'About', position: 'left' },
 				{ to: '/docs/get-started', label: 'Get Started', position: 'left' },
+				// {
+				// 	type: 'docSidebar',
+				// 	sidebarId: 'tutorialSidebar',
+				// 	position: 'left',
+				// 	label: 'Docs'
+				// },
+				// dropdown
 				{
-					type: 'docSidebar',
-					sidebarId: 'tutorialSidebar',
 					position: 'left',
-					label: 'Docs'
+					label: 'Documentation',
+					items: [
+						{
+							label: 'Basics',
+							to: '/docs/category/basics'
+						},
+						{
+							label: 'Quantum Gates & Circuits',
+							to: '/docs/category/quantum-gates--circuits'
+						}
+					]
 				},
 				{ to: '/references', label: 'References', position: 'left' },
 				{
