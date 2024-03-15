@@ -6,14 +6,20 @@ const extTheme = extendTheme({
 		light: {
 			palette: {
 				primary: {
-					main: 'hsl(240, 48%, 47%)',
-					light: 'hsl(240, 48%, 57%)',
-					dark: 'hsl(240, 48%, 37%)',
-					200: 'hsl(240, 48%, 67%)',
-					300: 'hsl(240, 48%, 77%)'
+					200: '#5d5dc6',
+					300: '#4c4cb2',
+					400: '#3b3ec6',
+					500: '#3e3eb1',
+					600: '#3e3eb1',
+					700: '#31318c',
+					800: '#31318c',
+					900: '#1f1f5c',
+					light: '#5d5dc6',
+					main: '#3e3eb1',
+					dark: '#31318c'
 				},
 				background: {
-					paper: 'hsl(240, 15%, 95%)'
+					paper: '#f0f0f4'
 				},
 				text: {
 					primary: '#444950',
@@ -25,14 +31,20 @@ const extTheme = extendTheme({
 		dark: {
 			palette: {
 				primary: {
-					main: 'hsl(240, 90%, 70%)',
-					light: 'hsl(240, 90%, 80%)',
-					dark: 'hsl(240, 90%, 60%)',
-					200: 'hsl(240, 90%, 90%)',
-					300: 'hsl(240, 90%, 95%)'
+					200: '#9e9efa',
+					300: '#b3b3fc',
+					400: '#a6a6fb',
+					500: '#6e6ef7',
+					600: '#3d3df5',
+					700: '#3131d9',
+					800: '#2b2bc8',
+					900: '#1f1f8c',
+					light: '#9e9efa',
+					main: '#6e6ef7',
+					dark: '#2b2bc8'
 				},
 				background: {
-					paper: 'hsl(210, 3%, 15%)'
+					paper: '#252627'
 				},
 				text: {
 					primary: '#F5F6F7',

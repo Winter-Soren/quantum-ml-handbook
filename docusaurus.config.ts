@@ -3,6 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import path from 'path';
 
 const config: Config = {
 	title: 'Quantum ML Handbook',
@@ -168,12 +169,15 @@ const config: Config = {
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} QML Docs, Inc. Built with Docusaurus.`
-		},
-		prism: {
-			theme: prismThemes.github,
-			darkTheme: prismThemes.dracula
+			copyright: `Copyright © ${new Date().getFullYear()} Quantum ML Handbook. Made with ⚡ by <a href='https://github.com/winter-soren' target='_blank' > Winter-Soren</a>`
 		}
+		// prism: {
+		// 	theme: prismThemes.github,
+		// 	darkTheme: prismThemes.dracula
+		// },
+		// materialUI: {
+		// 	theme: extTheme
+		// }
 	} satisfies Preset.ThemeConfig
 };
 

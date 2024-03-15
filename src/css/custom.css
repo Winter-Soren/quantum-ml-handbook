@@ -5,26 +5,52 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-	--ifm-color-primary: #2e8555;
-	--ifm-color-primary-dark: #29784c;
-	--ifm-color-primary-darker: #277148;
-	--ifm-color-primary-darkest: #205d3b;
-	--ifm-color-primary-light: #33925d;
-	--ifm-color-primary-lighter: #359962;
-	--ifm-color-primary-lightest: #3cad6e;
+/* :root {
+	--ifm-color-primary: #3e3eb1;
+	--ifm-color-primary-dark: #31318c;
+	--ifm-color-primary-darker: #31318c;
+	--ifm-color-primary-darkest: #1f1f5c;
+	--ifm-color-primary-light: #3b3ec6;
+	--ifm-color-primary-lighter: #4c4cb2;
+	--ifm-color-primary-lightest: #5d5dc6;
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+} */
+
+:root {
+	--ifm-color-primary: #d62b79;
+	--ifm-color-primary-dark: #c2256d;
+	--ifm-color-primary-darker: #b72367;
+	--ifm-color-primary-darkest: #971d55;
+	--ifm-color-primary-light: #da4187;
+	--ifm-color-primary-lighter: #dc4b8d;
+	--ifm-color-primary-lightest: #e26ca2;
+
+	--ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+	--ifm-footer-padding-vertical: 3rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-	--ifm-color-primary: #25c2a0;
-	--ifm-color-primary-dark: #21af90;
-	--ifm-color-primary-darker: #1fa588;
-	--ifm-color-primary-darkest: #1a8870;
-	--ifm-color-primary-light: #29d5b0;
-	--ifm-color-primary-lighter: #32d8b4;
-	--ifm-color-primary-lightest: #4fddbf;
+/* [data-theme='dark'] {
+	--ifm-color-primary: #6e6ef7;
+	--ifm-color-primary-dark: #3131d9;
+	--ifm-color-primary-darker: #2b2bc8;
+	--ifm-color-primary-darkest: #1f1f8c;
+	--ifm-color-primary-light: #a6a6fb;
+	--ifm-color-primary-lighter: #b3b3fc;
+	--ifm-color-primary-lightest: #9e9efa;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
+html[data-theme='dark'] {
+	--ifm-color-primary: #ffa700;
+	--ifm-color-primary-dark: #e69600;
+	--ifm-color-primary-darker: #d98e00;
+	--ifm-color-primary-darkest: #b37500;
+	--ifm-color-primary-light: #ffb01a;
+	--ifm-color-primary-lighter: #ffb426;
+	--ifm-color-primary-lightest: #ffc14d;
+
+	--ifm-footer-padding-vertical: 3rem;
 }
