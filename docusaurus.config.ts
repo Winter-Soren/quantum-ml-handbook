@@ -9,7 +9,8 @@ const config: Config = {
 	title: 'Quantum ML Handbook',
 	tagline:
 		'Comprehensive materials for busy scientists and engineers embarking on Quantum Machine Learning - advanced algorithms, optimization techniques, and beyond!',
-	favicon: 'img/favicon.ico',
+	favicon: 'img/logo2.png',
+	
 
 	// Set the production url of your site here
 	url: 'https://qml-documentation.vercel.app',
@@ -41,8 +42,7 @@ const config: Config = {
 					sidebarPath: './sidebars.ts',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl:
-						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+					editUrl: 'https://github.com/winter-soren/quantum-ml-handbook/tree/main/',
 					path: 'docs',
 					remarkPlugins: [remarkMath],
 					rehypePlugins: [rehypeKatex]
