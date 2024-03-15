@@ -78,11 +78,11 @@ export default function Home(): JSX.Element {
 				/>
 				<script type='application/ld+json'>
 					{JSON.stringify({
-						'@context': 'https://schema.org/',
-						'@type': 'Organization',
-						name: 'Meta Open Source',
-						url: 'https://opensource.fb.com/',
-						logo: 'https://opensource.fb.com/img/logos/Meta-Open-Source.svg'
+						'@context': 'Quantum Machine Learning',
+						'@type': 'GitHub',
+						name: 'Quantum Machine Learning Handbook',
+						url: 'https://quantummlhandbook.vercel.app/',
+						logo: 'https://quantummlhandbook.vercel.app/logo3.png'
 					})}
 				</script>
 			</Head>
