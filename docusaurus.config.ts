@@ -9,8 +9,7 @@ const config: Config = {
 	title: 'Quantum ML Handbook',
 	tagline:
 		'Comprehensive materials for busy scientists and engineers embarking on Quantum Machine Learning - advanced algorithms, optimization techniques, and beyond!',
-	favicon: 'img/logo2.png',
-	
+	favicon: '/logo3.png',
 
 	// Set the production url of your site here
 	url: 'https://qml-documentation.vercel.app',
@@ -91,8 +90,8 @@ const config: Config = {
 		navbar: {
 			title: 'Quantum ML Handbook',
 			logo: {
-				alt: 'My Site Logo',
-				src: 'img/logo.svg'
+				alt: 'Quantum ML Handbook Logo',
+				src: '/logo3.png'
 			},
 			items: [
 				// { to: '/about', label: 'About', position: 'left' },
