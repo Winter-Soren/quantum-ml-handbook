@@ -14,6 +14,23 @@ The Hadamard gate changes the state of the qubit from $|0\rangle$ to $\frac{1}{\
 
 PS: you must be thinking that the operations performed by the Hadamard gate are similar to the Pauli gates. Well, you are right! The Hadamard gate is a combination of the Pauli-X and Pauli-Z gates. The Hadamard gate is the most versatile gate in quantum computing, as it can be used to create superposition, entanglement, and perform phase-flip and bit-flip operations. 
 
+## Property 
+Psst... only hadamard has it!!
+
+When a qubit is in the state |0⟩, it means that it is definitely in the state |0⟩ with probability amplitude 1 and in the state |1⟩ with probability amplitude 0. 
+
+This means that Hadamard gate transforms this |0⟩ state into an equal superposition of |0⟩ and |1⟩. This means that after applying the Hadamard gate to the |0⟩ state, the qubit is in a state where it has a 50% chance of being measured as |0⟩ and a 50% chance of being measured as |1⟩. Mathematically, this transformation can be represented as:
+
+$ H|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) $
+
+Similarly, when a qubit is in the state |1⟩, it is definitely in the state |1⟩ with probability amplitude 1 and in the state |0⟩ with probability amplitude 0. 
+
+The Hadamard gate also transforms this |1⟩ state into an equal superposition of |0⟩ and |1⟩. So, after applying the Hadamard gate to the |1⟩ state, the qubit is in a state where it has a 50% chance of being measured as |0⟩ and a 50% chance of being measured as |1⟩. This transformation can be represented as:
+
+$ H|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle) $
+
+
+
 ## Types
 The Hadamard gate has only one type.
 
@@ -32,7 +49,6 @@ Let's take an example to demonstrate the Hadamard gate.
 
 Certainly! Let's explore an example demonstrating the working of the Hadamard gate in excruciating detail.
 
-## Hadamard Gate (H)
 Suppose we have a qubit initially in the state $ |0\rangle $, represented as:
 
 $$  

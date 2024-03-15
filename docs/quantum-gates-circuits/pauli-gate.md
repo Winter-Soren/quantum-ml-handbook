@@ -8,8 +8,9 @@ sidebar_label: 2. Pauli Gate
 ## Definition
 
 The Pauli gates are a set of three single qubit gates that are used to change the state of a qubit. The Pauli gates are:
-_ `Pauli-X gate`
-_ `Pauli-Y gate` \* `Pauli-Z gate`
+- `Pauli-X gate`
+- `Pauli-Y gate`
+- `Pauli-Z gate`
 
 ## Effect on qubit
 
