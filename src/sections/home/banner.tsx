@@ -23,7 +23,7 @@ const Banner = () => {
 					alt='quantum computer clipart'
 					style={{
 						width: isMobile ? '42%' : isTablet ? '25%' : '18%',
-						maxHeight: '100%', 
+						maxHeight: '100%',
 						marginTop: isMobile ? 5 : isTablet ? 10 : 20
 					}}
 				/>
@@ -83,13 +83,20 @@ const Banner = () => {
 					</Typography>
 				</Box>
 				<Box>
+					{/* github stars */}
 					<iframe
 						src='https://ghbtns.com/github-btn.html?user=winter-soren&amp;repo=quantum-ml-handbook&amp;type=star&amp;count=true&amp;size=large'
-						frameBorder={0}
-						// scrolling={0}
 						width={165}
 						height={30}
+						style={{ marginLeft: 40}}
 						title='Stars'
+					/>
+					{/* github forks */}
+					<iframe
+						src='https://ghbtns.com/github-btn.html?user=winter-soren&amp;repo=quantum-ml-handbook&amp;type=fork&amp;count=true&amp;size=large'
+						width={165}
+						height={30}
+						title='Forks'
 					/>
 				</Box>
 			</Stack>
