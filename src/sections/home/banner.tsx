@@ -19,11 +19,12 @@ const Banner = () => {
 				spacing={2}
 			>
 				<img
-					src='/img/blue-qc.png'
+					src='/img/blue-qc-light.png'
 					alt='quantum computer clipart'
 					style={{
 						width: isMobile ? '42%' : isTablet ? '25%' : '18%',
-						maxHeight: '100%'
+						maxHeight: '100%', 
+						marginTop: isMobile ? 5 : isTablet ? 10 : 20
 					}}
 				/>
 				<Box>
