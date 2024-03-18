@@ -88,7 +88,7 @@ const Banner = () => {
 						src='https://ghbtns.com/github-btn.html?user=winter-soren&amp;repo=quantum-ml-handbook&amp;type=star&amp;count=true&amp;size=large'
 						width={165}
 						height={30}
-						style={{ marginLeft: 40}}
+						style={{ marginLeft: 40 }}
 						title='Stars'
 					/>
 					{/* github forks */}
