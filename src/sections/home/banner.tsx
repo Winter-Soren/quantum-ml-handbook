@@ -84,8 +84,8 @@ const Banner = () => {
 				</Box>
 				<Box>
 					<iframe
-						src='https://ghbtns.com/github-btn.html?user=winter-soren&amp;repo=qml-documentation&amp;type=star&amp;count=true&amp;size=large'
-						// frameBorder={0}
+						src='https://ghbtns.com/github-btn.html?user=winter-soren&amp;repo=quantum-ml-handbook&amp;type=star&amp;count=true&amp;size=large'
+						frameBorder={0}
 						// scrolling={0}
 						width={165}
 						height={30}
