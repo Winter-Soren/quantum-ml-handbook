@@ -47,7 +47,6 @@ _ `Pauli-Y gate`: $\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$ \* `Pauli-Z ga
 
 Let's take an example to demonstrate the Pauli gates. We will take example with each of the Pauli gates.
 
-Certainly! Let's explore examples demonstrating the working of the Pauli-X, Pauli-Y, and Pauli-Z gates in excruciating detail.
 
 ### Pauli-X Gate (σx)
 

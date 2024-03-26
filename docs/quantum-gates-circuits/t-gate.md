@@ -26,7 +26,6 @@ The T gate is represented as ` ───T─── ` in the circuit.
 
 Let's take an example to demonstrate the T gate.
 
-Certainly! Let's explore an example demonstrating the working of the T gate in excruciating detail.
 
 *   T Gate
 Suppose we have a qubit initially in the state $|0\rangle$, represented as:

@@ -47,7 +47,6 @@ The Hadamard gate is represented as `───H───` in the circuit.
 
 Let's take an example to demonstrate the Hadamard gate.
 
-Certainly! Let's explore an example demonstrating the working of the Hadamard gate in excruciating detail.
 
 Suppose we have a qubit initially in the state $ |0\rangle $, represented as:
 
