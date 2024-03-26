@@ -21,6 +21,13 @@ const Features = (props: Props) => {
 	const isTablet = useMediaQuery(theme.breakpoints.down('md'));
 	const [expanded, setExpanded] = React.useState<number | false>(false);
 
+	React.useEffect(() => {
+		// Find the index of the feature with open set to true
+		const initialExpandedIndex = features.findIndex(feature => feature.open);
+		// Set the expanded state to the index if found, otherwise set it to false
+		setExpanded(initialExpandedIndex !== -1 ? initialExpandedIndex : false);
+	}, []); // Run this effect only once when the component mounts
+
 	const handleExpansion = (panel: number) => (event: React.ChangeEvent<{}>, isExpanded: boolean) => {
 		setExpanded(isExpanded ? panel : false);
 	};
@@ -90,7 +97,6 @@ const Features = (props: Props) => {
 									<FcOk
 										style={{
 											marginRight: '8px',
-											// width: isMobile ? '3em' : isTablet ? '3em' : 0,
 											height: isMobile ? '1.2em' : isTablet ? '1.2em' : '1.2rem'
 										}}
 									/>

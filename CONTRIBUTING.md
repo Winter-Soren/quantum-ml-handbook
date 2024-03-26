@@ -19,7 +19,6 @@ You can contribute to our project in various ways, including but not limited to:
 9. You can add new plugins to the documentation, but make sure to follow the [mkdocs plugins](https://squidfunk.github.io/mkdocs-material/plugins/) for reference.
 10. You can also change the setup of the documentation, but make sure to follow the [mkdocs setup](https://squidfunk.github.io/mkdocs-material/setup/) for reference.
 
-
 ## Getting Started
 
 If you're new to contributing to open-source projects or our project specifically, here are some steps to get started:
@@ -36,13 +35,13 @@ If you're new to contributing to open-source projects or our project specificall
 
 To maintain consistency and readability across the codebase, we follow certain coding standards and style guidelines. Here are some general principles:
 
-- Use 3-4 level depth of headings in the markdown files.
-- Make sure to add captions to images, and tables.
-- If image is outsourced, then make sure to add the source of the image either in the image caption or in the reference tab.
-- To write equation in the sentence use 'MathJax' and to write equation in a separate line use 'KaTeX'.
-- Any new equation written using 'KaTex' should have a equation number.
-- If writing code for demonstration, then make sure to use ONE single library (either use qiskit or pennylane or cirq) to demonstrate the topic.
-- Use the `mkdocs` markdown syntax for writing the documentation.
+-   Use 3-4 level depth of headings in the markdown files.
+-   Make sure to add captions to images, and tables.
+-   If image is outsourced, then make sure to add the source of the image either in the image caption or in the reference tab.
+-   To write equation in the sentence use 'MathJax' and to write equation in a separate line use 'KaTeX'.
+-   Any new equation written using 'KaTex' should have a equation number.
+-   If writing code for demonstration, then make sure to use ONE single library (either use qiskit or pennylane or cirq) to demonstrate the topic.
+-   Use the `mkdocs` markdown syntax for writing the documentation.
 
 ## Code Review Process
 

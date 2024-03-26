@@ -9,6 +9,7 @@ sidebar_label: 4. Phase Gate
 The phase gate is a single-qubit gate used to change the phase of the qubit. Also known as the $R_\phi$ gate, it alters the phase of the qubit along the $Z$ axis of the Bloch sphere, performing a phase-flip operation. It is one of the most commonly used gates in quantum computing after the Pauli gates and the Hadamard gate.
 
 ## Effect on qubit
+
 The phase gate changes the phase of the qubit from $+1$ to $-1$ and vice versa.
 
 PS: You might be thinking that this operation is performed by the Pauli-Z gate as well. Indeed, both gates perform the same operation, but the Phase gate is a generalization of the Pauli-Z gate. The distinction lies in the phase change introduced: Pauli-Z gate introduces a phase change of $\pi$ ($180$ degrees) to the $|1\rangle$ state, while the Phase gate introduces a phase change of $\pi/2$ ($90$ degrees) to the $|1\rangle$ state.
@@ -89,15 +90,11 @@ The circuit representation of this operation is as follows:
 
 Initial state: $|0\rangle$
 
-   ───Rz───
+───Rz───
 
 Final state: $|0\rangle$
 
 ## Properties
-The properties of the phase gate are:
-    * The phase gate is Hermitian, i.e., the conjugate transpose of the gate is equal to the gate itself (i.e., $Rz^\dagger = Rz$).
-    * The phase gate is involutory, i.e., applying the gate twice results in the identity gate.
-    * The phase gate is a unitary gate, i.e., the inverse of the gate is equal to the conjugate transpose of the gate (i.e., $Rz^{-1} = Rz^\dagger$).
 
 ## Conjugate Transpose
 The conjugate transpose of the phase gate is:
