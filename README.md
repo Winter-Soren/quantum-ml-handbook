@@ -43,7 +43,7 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
         -   [ ] S gate.
         -   [ ] U gate.
     -   [ ] Multi qubit gates.
-        -   [ ] CNOT gate.
+        -   [x] CNOT gate.
         -   [ ] SWAP gate.
         -   [ ] Toffoli gate.
         -   [ ] Fredkin gate.
