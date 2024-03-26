@@ -39,7 +39,7 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
         -   [x] Pauli gates.
         -   [x] Hadamard gate.
         -   [x] Phase gate.
-        -   [ ] T gate.
+        -   [x] T gate.
         -   [ ] S gate.
         -   [ ] U gate.
     -   [ ] Multi qubit gates.
