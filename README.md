@@ -40,7 +40,7 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
         -   [x] Hadamard gate.
         -   [x] Phase gate.
         -   [x] T gate.
-        -   [ ] S gate.
+        -   [x] S gate.
         -   [ ] U gate.
     -   [ ] Multi qubit gates.
         -   [x] CNOT gate.
