@@ -36,35 +36,35 @@ Suppose we have a qubit initially in the state $|0\rangle$, represented as:
 
 $$
 |q_0\rangle = |0\rangle
-\tag{22}
+\tag{1}
 $$
 
 The S gate is represented by the following matrix:
 
 $$
 S = \begin{bmatrix} 1 & 0 \\ 0 & i \end{bmatrix}
-\tag{23}
+\tag{2}
 $$
 
 To apply the S gate to the qubit $|q_0\rangle = |0\rangle$, we perform a matrix multiplication of the S gate matrix with the state vector representing $|0\rangle$.
 
 $$
 S|q_0\rangle = \begin{bmatrix} 1 & 0 \\ 0 & i \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{24}
+\tag{3}
 $$
 
 Performing the matrix multiplication:
 
 $$
 S|q_0\rangle = \begin{bmatrix} 1*1 + 0*0 \\ 0*1 + i*0 \end{bmatrix}
-\tag{25}
+\tag{4}
 $$
 
 Simplifying:
 
 $$
 S|q_0\rangle = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{26}
+\tag{5}
 $$
 
 Thus, the S gate does not change the state of the qubit $|0\rangle$.
@@ -79,21 +79,21 @@ Suppose we have a qubit initially in the state $|1\rangle$, represented as:
 
 $$
 |q_1\rangle = |1\rangle
-\tag{27}
+\tag{6}
 $$
 
 To apply the S gate to the qubit $|q_1\rangle = |1\rangle$, we perform a matrix multiplication of the S gate matrix with the state vector representing $|1\rangle$.
 
 $$
 S|q_1\rangle = \begin{bmatrix} 1 & 0 \\ 0 & i \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix}
-\tag{28}
+\tag{7}
 $$
 
 Performing the matrix multiplication:
 
 $$
 S|q_1\rangle = \begin{bmatrix} 1*0 + 0*1 \\ 0*0 + i*1 \end{bmatrix}
-\tag{29}
+\tag{8}
 $$
 
 Simplifying:
@@ -101,7 +101,7 @@ Simplifying:
 $$
 S|q_1\rangle = \begin{bmatrix} 0 \\ i \end{bmatrix}
 
-\tag{30}
+\tag{9}
 $$
 
 Thus, the S gate changes the state of the qubit $|1\rangle$ to $i|1\rangle$.

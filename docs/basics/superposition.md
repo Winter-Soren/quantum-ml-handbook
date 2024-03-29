@@ -61,7 +61,7 @@ $$
 \tag{4}
 $$
 
-In equation (15) the _$ \frac{1}{\sqrt{2}} $_ represents the value of _$ \alpha $_ and _$ \beta $_. The probability of the qubit being in state _$ |0\rangle $_ is _$ |\alpha|^2 = \frac{1}{2} $_ and the probability of the qubit being in state _$ |1\rangle $_ is _$ |\beta|^2 = \frac{1}{2} $_. The sum of the probabilities is 1, which is a requirement for a qubit to be in a valid superposition state.
+In equation (3) the $ \frac{1}{\sqrt{2}} $ represents the value of $ \alpha $ and $ \beta $. The probability of the qubit being in state $ |0\rangle $ is $ |\alpha|^2 = \frac{1}{2} $ and the probability of the qubit being in state $ |1\rangle $ is $ |\beta|^2 = \frac{1}{2} $. The sum of the probabilities is 1, which is a requirement for a qubit to be in a valid superposition state.
 
 ## Limitations
 

@@ -32,35 +32,35 @@ Suppose we have a qubit initially in the state $|0\rangle$, represented as:
 
 $$
 |q_0\rangle = |0\rangle
-\tag{18}
+\tag{1}
 $$
 
 The T gate is represented by the following matrix:
 
 $$
 T = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/4} \end{bmatrix}
-\tag{19}
+\tag{2}
 $$
 
 To apply the T gate to the qubit $|q_0\rangle = |0\rangle$, we perform a matrix multiplication of the T gate matrix with the state vector representing $|0\rangle$.
 
 $$
 T|q_0\rangle = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/4} \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{20}
+\tag{3}
 $$
 
 Performing the matrix multiplication:
 
 $$
 T|q_0\rangle = \begin{bmatrix} 1*1 + 0*0 \\ 0*1 + e^{i\pi/4}*0 \end{bmatrix}
-\tag{21}
+\tag{4}
 $$
 
 Simplifying:
 
 $$
 T|q_0\rangle = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{22}
+\tag{5}
 $$
 
 Thus, the T gate does not change the state of the qubit $|0\rangle$.

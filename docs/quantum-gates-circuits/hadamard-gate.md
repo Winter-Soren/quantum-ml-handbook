@@ -23,13 +23,21 @@ When a qubit is in the state |0⟩, it means that it is definitely in the state 
 
 This means that Hadamard gate transforms this |0⟩ state into an equal superposition of |0⟩ and |1⟩. This means that after applying the Hadamard gate to the |0⟩ state, the qubit is in a state where it has a 50% chance of being measured as |0⟩ and a 50% chance of being measured as |1⟩. Mathematically, this transformation can be represented as:
 
-$ H|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) $
+$$
+H|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) 
+\tag{1}
+$$
 
 Similarly, when a qubit is in the state |1⟩, it is definitely in the state |1⟩ with probability amplitude 1 and in the state |0⟩ with probability amplitude 0.
 
 The Hadamard gate also transforms this |1⟩ state into an equal superposition of |0⟩ and |1⟩. So, after applying the Hadamard gate to the |1⟩ state, the qubit is in a state where it has a 50% chance of being measured as |0⟩ and a 50% chance of being measured as |1⟩. This transformation can be represented as:
 
-$ H|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle) $
+$$
+H|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle) 
+\tag{2}
+$$
+
+After applying the Hadamard gate to the $|1\rangle$ state, you can observe that there is a negative sign in front of the $|1\rangle$ state. This negative sign is the phase factor that is introduced by the Hadamard gate. This phase factor is responsible for the phase-flip operation performed by the Hadamard gate. The Hadamard gate changes the phase of the qubit from +1 to -1 and vice versa. In terms of the Bloch sphere, the Hadamard gate changes the state of the qubit in terms of the $X$ and $Z$ axes of the Bloch sphere. Talking in radians, the Hadamard gate introduces a phase of $\pi$ radians to the qubit.
 
 ## Types
 
@@ -52,49 +60,49 @@ Suppose we have a qubit initially in the state $ |0\rangle $, represented as:
 
 $$
 |q_0\rangle = |0\rangle
-\tag{7}
+\tag{3}
 $$
 
 The Hadamard gate is represented by the following matrix:
 
 $$
 H = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}
-\tag{8}
+\tag{4}
 $$
 
 To apply the Hadamard gate to the qubit $ |q_0\rangle = |0\rangle $, we perform a matrix multiplication of the Hadamard gate matrix with the state vector representing $ |0\rangle $.
 
 $$
 H|q_0\rangle = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{9}
+\tag{5}
 $$
 
 Performing the matrix multiplication:
 
 $$
 H|q_0\rangle = \frac{1}{\sqrt{2}} \begin{bmatrix} 1*1 + 1*0 \\ 1*1 - 1*0 \end{bmatrix}
-\tag{10}
+\tag{6}
 $$
 
 Simplifying:
 
 $$
 H|q_0\rangle = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
-\tag{11}
+\tag{7}
 $$
 
 Therefore, after applying the Hadamard gate, the state of the qubit $ |q_0\rangle $ transforms to:
 
 $$
 |q_1\rangle = H|q_0\rangle = \frac{1}{\sqrt{2}} \begin{bmatrix} 1 \\ 1 \end{bmatrix}
-\tag{12}
+\tag{8}
 $$
 
 The ket representation of the final state is:
 
 $$
 |q_1\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)
-\tag{13}
+\tag{9}
 $$
 
 The circuit representation of this operation is as follows:

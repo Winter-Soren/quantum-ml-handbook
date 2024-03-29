@@ -32,35 +32,35 @@ Suppose we have a qubit initially in the state $|0\rangle$, represented as:
 
 $$
 |q_0\rangle = |0\rangle
-\tag{14}
+\tag{1}
 $$
 
 The phase gate is represented by the following matrix:
 
 $$
 Rz = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/2} \end{bmatrix}
-\tag{15}
+\tag{2}
 $$
 
 To apply the phase gate to the qubit $|q_0\rangle = |0\rangle$, we perform a matrix multiplication of the phase gate matrix with the state vector representing $|0\rangle$.
 
 $$
 Rz|q_0\rangle = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/2} \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{16}
+\tag{3}
 $$
 
 Performing the matrix multiplication:
 
 $$
 Rz|q_0\rangle = \begin{bmatrix} 1*1 + 0*0 \\ 0*1 + e^{i\pi/2}*0 \end{bmatrix}
-\tag{17}
+\tag{4}
 $$
 
 Simplifying:
 
 $$
 Rz|q_0\rangle = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{18}
+\tag{5}
 $$
 
 Therefore, after applying the phase gate, the state of the qubit $|q_0\rangle$ remains unchanged, indicating that the phase gate only changes the phase of the qubit.
@@ -69,21 +69,21 @@ Let's take the phase of the qubit to be $\phi = \pi/2$. Then, the matrix represe
 
 $$
 Rz = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\pi/2} \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & i \end{bmatrix}
-\tag{19}
+\tag{6}
 $$
 
 After applying the phase gate, the state of the qubit $|q_0\rangle$ transforms to:
 
 $$
 |q_1\rangle = Rz|q_0\rangle = \begin{bmatrix} 1 & 0 \\ 0 & i \end{bmatrix} \begin{bmatrix} 1 \\ 0 \end{bmatrix} = \begin{bmatrix} 1*1 + 0*0 \\ 0*1 + i*0 \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}
-\tag{20}
+\tag{7}
 $$
 
 The ket representation of the final state is:
 
 $$
 |q_1\rangle = \begin{bmatrix} 1 \\ 0 \end{bmatrix} = |0\rangle
-\tag{21}
+\tag{8}
 $$
 
 The circuit representation of this operation is as follows:

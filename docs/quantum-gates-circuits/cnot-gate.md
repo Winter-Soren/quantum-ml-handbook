@@ -19,7 +19,7 @@ The matrix representation of the CNOT gate is:
 
 $$
 CX = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{bmatrix}
-\tag{2}
+\tag{1}
 $$
 
 ## Circuit representation
@@ -44,40 +44,40 @@ Suppose we have two qubits initially in the state $|00\rangle$, represented as:
 
 $$
 |q_0\rangle = |0\rangle
-\tag{3}
+\tag{2}
 $$
 
 $$
 |q_1\rangle = |0\rangle
-\tag{4}
+\tag{3}
 $$
 
 The CNOT gate is represented by the following matrix:
 
 $$
 CX = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{bmatrix}
-\tag{5}
+\tag{4}
 $$
 
 To apply the CNOT gate to the qubits $|q_0\rangle = |0\rangle$ and $|q_1\rangle = |0\rangle$, we perform a matrix multiplication of the CNOT gate matrix with the state vector representing $|00\rangle$.
 
 $$
 CX|q_0q_1\rangle = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{bmatrix} \begin{bmatrix} 1 \\ 0 \\ 0 \\ 0 \end{bmatrix}
-\tag{6}
+\tag{5}
 $$
 
 Performing the matrix multiplication:
 
 $$
 CX|q_0q_1\rangle = \begin{bmatrix} 1*1 + 0*0 + 0*0 + 0*0 \\ 0*1 + 1*0 + 0*0 + 0*0 \\ 0*1 + 0*0 + 0*0 + 1*0 \\ 0*1 + 0*0 + 1*0 + 0*0 \end{bmatrix}
-\tag{7}
+\tag{6}
 $$
 
 Simplifying:
 
 $$
 CX|q_0q_1\rangle = \begin{bmatrix} 1 \\ 0 \\ 0 \\ 0 \end{bmatrix}
-\tag{8}
+\tag{7}
 $$
 
 Thus, the CNOT gate does not change the state of the qubits $|00\rangle$.
@@ -90,33 +90,33 @@ Suppose we have two qubits initially in the state $|10\rangle$, represented as:
 
 $$
 |q_0\rangle = |1\rangle
-\tag{9}
+\tag{8}
 $$
 
 $$
 |q_1\rangle = |1\rangle
-\tag{10}
+\tag{9}
 $$
 
 To apply the CNOT gate to the qubits $|q_0\rangle = |1\rangle$ and $|q_1\rangle = |1\rangle$, we perform a matrix multiplication of the CNOT gate matrix with the state vector representing $|11\rangle$.
 
 $$
 CX|q_0q_1\rangle = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{bmatrix} \begin{bmatrix} 0 \\ 0 \\ 0 \\ 1 \end{bmatrix}
-\tag{11}
+\tag{10}
 $$
 
 Performing the matrix multiplication:
 
 $$
 CX|q_0q_1\rangle = \begin{bmatrix} 1*0 + 0*0 + 0*0 + 0*1 \\ 0*0 + 1*0 + 0*0 + 0*1 \\ 0*0 + 0*0 + 0*0 + 1*1 \\ 0*0 + 0*0 + 1*0 + 0*1 \end{bmatrix}
-\tag{12}
+\tag{11}
 $$
 
 Simplifying:
 
 $$
 CX|q_0q_1\rangle = \begin{bmatrix} 0 \\ 0 \\ 1 \\ 0 \end{bmatrix} = |10\rangle
-\tag{13}
+\tag{12}
 $$
 
 Thus, the CNOT gate flips the state of the target qubit if the control qubit is in the state $|1\rangle$.
@@ -133,22 +133,22 @@ observe the below equations carefully:
 
 $$
 CX|00\rangle = |00\rangle
-\tag{14}
+\tag{13}
 $$
 
 $$
 CX|01\rangle = |01\rangle
-\tag{15}
+\tag{14}
 $$
 
 $$
 CX|10\rangle = |11\rangle
-\tag{16}
+\tag{15}
 $$
 
 $$
 CX|11\rangle = |10\rangle
-\tag{17}
+\tag{16}
 $$
 
 PS: break the above state of qubits into two qubits, the first qubit represents the control qubit and the second qubit represents the target qubit. ie $|q_0q_1\rangle$ = $|q_0\rangle|q_1\rangle$ and apply the CNOT gate to the qubits.

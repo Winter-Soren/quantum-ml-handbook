@@ -28,14 +28,18 @@ The Pauli gates are named after the physicist Wolfgang Pauli. The Pauli-X gate i
 ## Types
 
 The Pauli gates are:
-_ `Pauli-X gate`: The Pauli-X gate is also known as the NOT gate. It is used to perform the bit-flip operation.
-_ `Pauli-Y gate`: The Pauli-Y gate is used to perform the bit-phase-flip operation. \* `Pauli-Z gate`: The Pauli-Z gate is used to perform the phase-flip operation.
+* `Pauli-X gate`: The Pauli-X gate is also known as the NOT gate. It is used to perform the bit-flip operation.
+* `Pauli-Y gate`: The Pauli-Y gate is used to perform the bit-phase-flip operation.
+* `Pauli-Z gate`: The Pauli-Z gate is used to perform the phase-flip operation.
 
 ## Matrix representation
 
 The matrix representation of the Pauli gates are:
-_ `Pauli-X gate`: $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
-_ `Pauli-Y gate`: $\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$ \* `Pauli-Z gate`: $\begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$
+* `Pauli-X gate`: $\begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$
+* `Pauli-Y gate`: $\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$ 
+* `Pauli-Z gate`: $\begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$
+
+here $i$ is the imaginary unit. 
 
 ## Circuit representation
 
