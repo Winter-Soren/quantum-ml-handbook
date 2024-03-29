@@ -8,7 +8,7 @@ sidebar_label: 5. T Gate
 ## Definition
 Similar to the Phase gate, the T gate is a single-qubit gate that introduces a phase of 45 degrees. The T gate is also known as the $\sqrt{Pauli-Z}$ gate. The T gate is used to change the phase of the qubit in terms of the $Z$ axis of the Bloch sphere. 
 The T gate is the most commonly used gate in quantum computing after the Pauli gates, Hadamard gate, and the Phase gate.
-
+    
 ## Effect on qubit
 The T gate changes the phase of the qubit by 45 degrees. The T gate changes the phase of the qubit from $+1$ to $e^{i\pi/4}$ and vice versa, where $i$ is the imaginary unit. 
 
