@@ -1,9 +1,7 @@
-import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import path from 'path';
 
 const config: Config = {
 	title: 'Quantum ML Handbook',
@@ -112,14 +110,14 @@ const config: Config = {
 							to: '/docs/category/basics'
 						},
 						{
-							label: 'Quantum Gates & Circuits',
-							to: '/docs/category/quantum-gates--circuits'
+							label: 'Quantum Gates',
+							to: '/docs/category/quantum-gates'
 						}
 					]
 				},
 				{ to: '/references', label: 'References', position: 'left' },
 				{
-					href: 'https://github.com/Winter-Soren/qml-documentation/',
+					href: 'https://github.com/Winter-Soren/quantum-ml-handbook/',
 					label: 'GitHub',
 					position: 'right'
 				}
