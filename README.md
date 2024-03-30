@@ -41,10 +41,9 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
         -   [x] Phase gate.
         -   [x] T gate.
         -   [x] S gate.
-        -   [ ] U gate.
     -   [ ] Multi qubit gates.
         -   [x] CNOT gate.
-        -   [ ] SWAP gate.
+        -   [x] SWAP gate.
         -   [ ] Toffoli gate.
         -   [ ] Fredkin gate.
         -   [ ] Controlled U gate.

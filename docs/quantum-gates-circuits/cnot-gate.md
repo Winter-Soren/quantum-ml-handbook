@@ -1,6 +1,6 @@
 ---
-sidebar_position: 7
-sidebar_label: 8. CNOT Gate
+sidebar_position: 6
+sidebar_label: 7. CNOT Gate
 ---
 
 # CNOT Gate
