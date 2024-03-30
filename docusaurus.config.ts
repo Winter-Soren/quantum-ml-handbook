@@ -10,7 +10,7 @@ const config: Config = {
 	favicon: '/logo3.png',
 
 	// Set the production url of your site here
-	url: 'https://qml-documentation.vercel.app',
+	url: 'https://quantummlhandbook.vercel.app',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: '/',
