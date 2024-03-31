@@ -14,7 +14,8 @@ In CNOT gate if the control qubit is in the state $|0\rangle$, the target qubit 
 ## Types
 The CNOT gate has only one type.
 
-## Matrix representation
+## Representation
+### Matrix representation
 The matrix representation of the CNOT gate is:
 
 $$
@@ -22,7 +23,7 @@ CX = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 
 \tag{1}
 $$
 
-## Circuit representation
+### Circuit representation
 The CNOT gate is represented as
     
     ```plaintext

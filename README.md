@@ -1,4 +1,4 @@
-# Quantum Machine Learning Documentation
+# Quantum Machine Learning Handbook
 
 This repository contains comprehensive documentation on Quantum Machine Learning (QML), aimed at beginners and practitioners interested in exploring the intersection of quantum computing and machine learning.
 
@@ -35,7 +35,7 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
     -   [x] Entanglement.
     -   [x] Bloch Sphere.
 -   [ ] Understanding Quantum gates (analogy with classical gates).
-    -   [ ] Single qubit gates.
+    -   [x] Single qubit gates.
         -   [x] Pauli gates.
         -   [x] Hadamard gate.
         -   [x] Phase gate.
@@ -44,7 +44,7 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
     -   [ ] Multi qubit gates.
         -   [x] CNOT gate.
         -   [x] SWAP gate.
-        -   [ ] Toffoli gate.
+        -   [x] Toffoli gate.
         -   [ ] Fredkin gate.
         -   [ ] Controlled U gate.
         -   [ ] Controlled phase gate.
