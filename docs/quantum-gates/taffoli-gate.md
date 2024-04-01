@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-sidebar_label: 9. SWAP Gate
+sidebar_label: 9. Taffoli Gate
 ---
 
 # Taffoli Gate
