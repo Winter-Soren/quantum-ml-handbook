@@ -45,7 +45,7 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
         -   [x] CNOT gate.
         -   [x] SWAP gate.
         -   [x] Toffoli gate.
-        -   [ ] Fredkin gate.
+        -   [x] Fredkin gate.
         -   [ ] Controlled U gate.
         -   [ ] Controlled phase gate.
     -   [ ] Universal gates.

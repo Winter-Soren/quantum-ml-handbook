@@ -85,6 +85,11 @@ const config: Config = {
 	themeConfig: {
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',
+		docs: {
+			sidebar: {
+				hideable: true
+			}
+		},
 		navbar: {
 			title: 'Quantum ML Handbook',
 			logo: {
@@ -112,6 +117,10 @@ const config: Config = {
 						{
 							label: 'Quantum Gates',
 							to: '/docs/category/quantum-gates'
+						},
+						{
+							label: 'Quantum Neural Network',
+							to: '/docs/category/quantum-neural-network'
 						}
 					]
 				},

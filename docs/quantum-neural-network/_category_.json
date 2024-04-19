@@ -1,0 +1,8 @@
+{
+	"label": "Quantum Neural Network",
+	"position": 4,
+	"link": {
+		"type": "generated-index",
+		"description": "This section consists of the Quantum Neural Network (QNN), it consists of introduction, how to instantiate, how to run forward and backward propagation, and how to train the QNN. Advancing into variational quantum circuit and with demo about building a QNN with a popular problem statements."
+	}
+}
