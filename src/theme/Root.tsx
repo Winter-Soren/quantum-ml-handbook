@@ -8,9 +8,7 @@ export default function Root(props: { children: React.ReactNode }) {
 	return (
 		<>
 			{getInitColorSchemeScript()}
-			{console.log('extTheme', extTheme)}
 			<CssVarsProvider theme={extTheme}>{props.children}</CssVarsProvider>
-			{/* <ThemeProvider theme={extTheme}>{props.children}</ThemeProvider> */}
 		</>
 	);
 }
