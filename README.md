@@ -56,10 +56,24 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
         -   [ ] SWAP gate.
         -   [ ] Fredkin gate.
 -   [ ] Quantum circuits.
-    -   [ ] How to construct any circuit.
+    -   [ ] Components of a quantum circuit.
+        -   [ ] Qubits.
+        -   [ ] Gates.
+        -   [ ] Circuits.
+        -   [ ] Measurements.
+        -   [ ] Quantum Fourier Transform.
+        -   [ ] Inverse Quantum Fourier Transform.
+        -   [ ] Quantum Phase Estimation.
+        -   [ ] Quantum Variational Circuit.
+        -   [ ] Quantum Circuit for Grover's algorithm.
+    -   [ ] Quantum Circuit for Shor's algorithm.
+    -   [ ] Quantum Circuit for Simon's algorithm.
+    -   [ ] Quantum Circuit for Deutsch-Jozsa algorithm.
+    -   [ ] Quantum Circuit for Bernstein-Vazirani algorithm.
 -   [ ] Quantum ML algorithms (algos like SVM, KNN etc).
 -   [ ] Quantum Neural Networks.
     -   [x] Components of QNN.
+    -   [ ] Quantum circuit learning.
     -   [ ] Quantum Convolutional Neural Networks.
     -   [ ] Quantum Generative Adversarial Networks.
     -   [ ] Quantum Reinforcement Learning.

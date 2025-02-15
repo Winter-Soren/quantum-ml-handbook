@@ -1,0 +1,8 @@
+{
+	"label": "Quantum Circuits",
+	"position": 4,
+	"link": {
+		"type": "generated-index",
+		"description": "This section consists of quantum circuits, which are the core of quantum computing. It includes components of a quantum circuit, how to construct any circuit, quantum Fourier transform, inverse quantum Fourier transform, quantum phase estimation, quantum variational circuit, and quantum circuit for Grover's algorithm."
+	}
+}
