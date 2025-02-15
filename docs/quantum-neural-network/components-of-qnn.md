@@ -28,7 +28,7 @@ This is usually accomplished by two steps: the first is to select a universal ga
 
 The Solovay-Kitaev theorem states that any unitary operation can be approximated to arbitrary precision by a sequence of gates from a universal gate set. This means that any non-linear operation can be implemented on a quantum computer by using a sequence of gates from a universal gate set. Using this theorem results that guarantees a single qubit unitary operations can be effciently approximated by a sequence of gates from a universal gate set. There's a catch though, the number of gates required to approximate a unitary operation grows exponentially with the precision of the approximation. Since then, many advances have been made but the circuits designed so far are all deterministic. 
 
-A new approach is discovered, i.e., using non-deterministic quantum circuits. In this kind of circuits, a unitary operation is applied to a quantum state only if a certain expected measurement outcome is observed. Otherwise a cheap unitary operation can be utilized to reverse it. This process can then be repeated until the desired unitary operation is performed and therefore these circuits are called “Repeat-Until-Success” (RUS) circuits. A clear advantage of RUS circuits is their extremely low resource cost.
+A new approach is discovered, i.e., using non-deterministic quantum circuits. In this kind of circuits, a unitary operation is applied to a quantum state only if a certain expected measurement outcome is observed. Otherwise a cheap unitary operation can be utilized to reverse it. This process can then be repeated until the desired unitary operation is performed and therefore these circuits are called "Repeat-Until-Success" (RUS) circuits. A clear advantage of RUS circuits is their extremely low resource cost.
 
 Let's consider an example of a RUS circuit that implements a non-linear operation on a quantum state. 
 
@@ -81,5 +81,63 @@ q1: ─── H ─── X ─── H ─── M ───
 
 ### Creating a new type of quantum neuron
 
-to be continued...(I'm still working on this part, I will update it soon. Stay tuned!)
+Creating new types of quantum neurons is another approach to address the challenge of implementing non-linear operations in quantum neural networks. Several proposals have emerged, each with its unique characteristics and trade-offs. Let's explore some notable approaches:
+
+1. **Measurement-based Quantum Neurons**
+   - These neurons use quantum measurements to introduce non-linearity
+   - The measurement process naturally collapses the quantum state, providing a form of non-linear transformation
+   - Example structure:
+     ```
+     Input state → Unitary Operation → Measurement → Classical Processing → Output state
+     ```
+   - Advantage: Natural non-linearity through measurement
+   - Disadvantage: Loss of quantum coherence
+
+2. **Hybrid Quantum-Classical Neurons**
+   - Combines quantum and classical processing
+   - Uses quantum operations for linear transformations
+   - Applies classical non-linear functions to measurement results
+   - Structure:
+     ```
+     Quantum State → Quantum Circuit → Measurement → Classical Non-linear Function → New Quantum State
+     ```
+   - Advantage: Leverages best of both worlds
+   - Disadvantage: Requires frequent quantum-to-classical conversion
+
+3. **Parametric Quantum Circuits (PQC) as Neurons**
+   - Uses variational quantum circuits with trainable parameters
+   - The circuit structure itself acts as a neuron
+   - Example:
+     ```
+     |ψ⟩ → Rx(θ1) → Ry(θ2) → Rz(θ3) → CNOT → |ψ'⟩
+     ```
+   - Advantage: Highly flexible and trainable
+   - Disadvantage: Limited by the circuit depth and noise
+
+4. **Quantum Reservoir Computing**
+   - Inspired by classical reservoir computing
+   - Uses a large quantum system as a reservoir
+   - Only output weights are trained
+   - Structure:
+     ```
+     Input → Quantum Reservoir → Fixed Quantum Operations → Measurement → Linear Readout
+     ```
+   - Advantage: Simpler training process
+   - Disadvantage: Requires larger quantum systems
+
+The key challenges in designing new quantum neurons include:
+- Maintaining quantum coherence
+- Balancing expressivity with implementability
+- Ensuring efficient training methods
+- Dealing with noise and decoherence
+
+Current research focuses on finding the optimal trade-off between these factors while maximizing the computational advantages of quantum systems.
+
+**Future Directions:**
+- Development of error-resistant quantum neurons
+- Investigation of novel quantum-inspired neural architectures
+- Integration with quantum error correction
+- Exploration of topology-aware quantum neural designs
+
+The field of quantum neuron design remains highly active, with new proposals emerging regularly as our understanding of quantum systems and their computational capabilities continues to evolve.
 

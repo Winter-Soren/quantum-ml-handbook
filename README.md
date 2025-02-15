@@ -59,17 +59,18 @@ When you go to the [live website](https://quantummlhandbook.vercel.app/) or loca
     -   [ ] How to construct any circuit.
 -   [ ] Quantum ML algorithms (algos like SVM, KNN etc).
 -   [ ] Quantum Neural Networks.
--   [ ] Quantum Convolutional Neural Networks.
--   [ ] Quantum Generative Adversarial Networks.
--   [ ] Quantum Reinforcement Learning.
--   [ ] Quantum Transfer Learning.
--   [ ] Quantum Autoencoders.
+    -   [x] Components of QNN.
+    -   [ ] Quantum Convolutional Neural Networks.
+    -   [ ] Quantum Generative Adversarial Networks.
+    -   [ ] Quantum Reinforcement Learning.
+    -   [ ] Quantum Transfer Learning.
+    -   [ ] Quantum Autoencoders.
 
 ## Installation
 
 before you start, make sure you have the following installed:
 
--   Node v18.x or higher
+-   Node LTS version
 
 install node_modules:
 
@@ -84,31 +85,6 @@ npm start
 ```
 
 now you can access the documentation at `http://localhost:3000/` in your browser.
-
-## Project Structure
-
-The project structure is as follows:
-
-```
-├───.github
-│   ├───ISSUE_TEMPLATE
-│   └───workflows
-├───docs
-│   ├───basics
-│   ├───gates-and-circuits
-│
-├───src
-│   ├───components
-│   ├───pages
-│   ├───css
-│   ├───data
-│   ├───sections
-│   ├───theme
-├───static
-└───mkdocs.yml
-```
-
-this is standard file and folder structure of docusaurus v2. the static folder contains the images and after building the static folder will remain the same. the docs folder contains the markdown files for the documentation. the src folder contains the source code for the documentation.
 
 ## License
 
